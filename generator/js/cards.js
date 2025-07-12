@@ -83,6 +83,10 @@ function card_data_icon_back(card_data, options) {
     return card_data.icon_back || options.default_icon_back || "";
 }
 
+function card_data_level(card_data, options) {
+    return card_data.card_level || null;
+}
+
 function card_data_split_params(value) {
     return value.split("|").map(function (str) { return str.trim(); });
 }
@@ -120,6 +124,19 @@ function card_element_icon(card_data, options) {
         result += '    <img class="card-title-' + classname + ' icon-' + icon + '" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7">';
     });
     result += '</div>';
+    return result;
+}
+
+function card_element_level(card_data, options) {
+    var level = card_data_level(card_data, options);
+    if (!level) return '';
+
+    var color = card_data_color_front(card_data, options);
+    var result = `
+        <div class="card-level-container">
+            <div class="card-level" style="background-color: ${color};">${level}</div>
+        </div>
+    `;
     return result;
 }
 
@@ -591,6 +608,7 @@ function card_generate_front(data, options) {
     result += '<div class="card-header">';
     result += card_element_title(data, options);
     result += card_element_icon(data, options);
+    result += card_element_level(data, options);
     result += '</div>';
     result += card_generate_contents(data.contents, data, options);
     result += '</div>';
