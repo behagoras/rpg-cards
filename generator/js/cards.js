@@ -516,7 +516,7 @@ function card_generate_contents(contents, card_data, options) {
 
     tagNames.forEach(function(tagName){
         var tagRegExp = new RegExp('<'+tagName+'[^>]*>', 'g');
-        var attrRegExp = new RegExp('([\\w-]+)="([^"]+)"', 'g')
+        var attrRegExp = new RegExp('([\\w-]+)=["\']([^"\']+)["\']', 'g')
 
         var matches = [];
         forEachMatch(tagRegExp, html, function(m){
@@ -528,16 +528,30 @@ function card_generate_contents(contents, card_data, options) {
         matches.forEach(function(match, i){
             if (tagName === 'icon') {
                 var attrs = {};
+                let styles = []
                 forEachMatch(attrRegExp, match[0], function(m,i){
+                    console.log("🚀 ~ matches.forEach ~ m:", m)
                     var attrName = m[1];
                     var attrValue = m[2];
                     if (attrName === 'name') {
                         if(!attrs.class) attrs.class = '';
-                        attrs.class += 'game-icon game-icon-' + attrValue;
+                        attrs.class += 'game-icon icon-' + attrValue + ' game-icon-' + attrValue;
+                        styles.push({name: 'background-color', value: options.default_color})
+                        styles.push({name: 'border-radius', value: '25%'})
+                        styles.push({name: 'display', value: 'inline-block'})
+                        styles.push({name: 'vertical-align', value: 'middle'})
+                        styles.push({name: 'line-height', value: '1'})
                     }
-                    else if (attrName === 'size') {
+                    if (attrName === 'color') {
+                        styles.push({name: 'background-color', value: attrValue})
+                    }
+                    if (attrName === 'size') {
                         if(!attrs.style) attrs.style = '';
                         attrs.style += 'font-size:' + attrValue + 'pt;';
+                        const dimension = +attrValue ? attrValue+'pt' : attrValue
+                        styles.push({name: 'height', value: dimension})
+                        styles.push({name: 'width', value: dimension})
+                        styles.push({name: 'max-height', value: dimension})
                     }
                 });
                 forEachMatch(attrRegExp, match[0], function(m,i){
@@ -548,11 +562,25 @@ function card_generate_contents(contents, card_data, options) {
                         attrs.style += attrValue;
                     }
                 });
-                var tagResult = '<i';
-                Object.keys(attrs).forEach(function(k){
-                    tagResult += ' ' + k + '="' + attrs[k] + '"';
+                // Build the style string
+                let styleString = '';
+                if (attrs.style) {
+                    styleString = attrs.style;
+                }
+                styles.forEach(style => {
+                    styleString += style.name + ':' + style.value + ';';
                 });
-                tagResult += '></i>';
+                
+                var tagResult = '<div';
+                Object.keys(attrs).forEach(function(k){
+                    if (k !== 'style') { // Don't add the old style attribute
+                        tagResult += ' ' + k + '="' + attrs[k] + '"';
+                    }
+                });
+                if (styleString) {
+                    tagResult += ' style="' + styleString + '"';
+                }
+                tagResult += '></div>';
                 tagResults[i] = tagResult;
             }
         });
