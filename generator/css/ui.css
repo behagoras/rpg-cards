@@ -13,6 +13,7 @@
 
 #preview-container {
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     background-color: white;
     flex-direction: column;

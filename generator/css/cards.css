@@ -173,7 +173,84 @@
     background-color: transparent;
     box-sizing: border-box;
 }
+.card-level-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: inherit;
+    border-color: inherit;
+    padding: 0 1mm 1mm 1mm;
+    flex-grow: 0;
+}
 
+.card-level {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 8mm;
+    height: 8mm;
+    border-radius: 50%;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    line-height: 1;
+    border: 0.5mm solid white;
+    z-index: 2;
+    background-color: var(--background-color);
+    box-sizing: border-box;
+}
+
+.card-level::before {
+    content: "";
+    position: absolute;
+    inset: -2.25mm;
+    border-radius: 50%;
+    border: 0.3mm solid white;
+    z-index: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.card-level {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5.4mm;
+    height: 5.4mm;
+    border-radius: 50%;
+    color: white;
+    font-weight: 1000;
+    text-align: center;
+    line-height: 1;
+    border: 0.3mm solid white;
+    z-index: 2;
+    background-color: var(--background-color);
+    box-sizing: border-box;
+}
+
+.card-level::after {
+    content: "";
+    position: absolute;
+    inset: -0.5mm;
+    border-radius: 50%;
+    border: 0.3mm solid white;
+    z-index: 1;
+    background-color: transparent;
+    box-sizing: border-box;
+}
+
+.card-level::before {
+    content: "";
+    position: absolute;
+    inset: -1mm;
+    border-radius: 50%;
+    border: 0.3mm solid white;
+    z-index: 0;
+    background-color: transparent;
+    box-sizing: border-box;
+}
 .card-title {
     height: 8mm;
     padding-left: 2mm;
@@ -441,43 +518,26 @@
     font-size: 9.5px;
 }
 
-table {
+.card table {
     border-collapse: collapse;
     width: 100%;
-    margin: -1rem 0;
-}
-
-th, td {
-    border: 1px solid #000;
-}
-
-
-
-
-
-
-
-
-
-.card table.stats,
-.card table.attributes {
-    border-collapse: collapse;
-    width: 100%;
-    margin: -.5rem 0;
-    /* margin: -1rem 0; */
+    margin: -0.5rem 0;
     padding: 0 1rem;
-
 }
 
-.card table.stats th,
-.card table.stats td,
-.card table.attributes th,
-.card table.attributes td {
-    border: 1px solid #000;
-    text-align: left;
-    padding: 2px;
+.card table th, .card table td {
+    border: 1px solid #999;
+    padding: 1pt 2pt;
 }
-/* .card table.stats th {
-    background: #f2f2f2;
-    width: 35%;
-} */
+
+
+
+
+
+
+
+
+
+
+
+
