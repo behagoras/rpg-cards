@@ -1,0 +1,113 @@
+[
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Item Plans Lvl2+",
+    "icon_front": "white-book-2",
+    "contents": [
+      "subtitle | Learn the plans for <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Common Magic Items</code>",
+      "rule",
+      "text | When you gain <b>Replicate Magic Item</b>, you may learn plans for <b>Common</b> magic items, excluding potions, scrolls, and cursed items.",
+      "section | Valid Item Types",
+      "text | • Any Common magic item (non-potion, non-scroll, non-cursed)",
+      "text | • Each chosen item counts as a separate plan.",
+      "section | Also Available at Level 2",
+      "bullet | Bag of Holding",
+      "bullet | Cap of Water Breathing",
+      "bullet | Sending Stones",
+      "bullet | Wand of the War Mage +1 (attunement)",
+      "fill | 1",
+      "",
+      "footer | Artificer Level 2 | Feature"
+    ],
+    "tags": [
+      "magic-items",
+      "replication",
+      "artificer",
+      "artificer-level-2"
+    ],
+    "card_font_size": "10",
+    "title_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Item Plans Lvl6+",
+    "icon_front": "white-book-6",
+    "contents": [
+      "subtitle | Learn the plans for <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Uncommon Magic Items</code>",
+      "text | At <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>level 6</code>, you may learn plans for <b>Uncommon magic items</b>.",
+      "section | Examples",
+      "bullet | Armor +1",
+      "bullet | Boots of Elvenkind",
+      "bullet | Cloak of Elvenkind (attunement)",
+      "bullet | Cloak of the Manta Ray",
+      "bullet | Eyes of Charming (attunement)",
+      "bullet | Gloves of Thievery",
+      "bullet | Lantern of Revealing",
+      "bullet | Pipes of Haunting",
+      "bullet | Any Uncommon Armor, Wand, or Weapon (non-cursed)",
+      "fill | 1",
+      "footer | Artificer Level 6 | Feature"
+    ],
+    "tags": [
+      "magic-items",
+      "replication",
+      "artificer",
+      "artificer-level-6"
+    ],
+    "card_font_size": "12",
+    "title_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Item Plans Lvl10+",
+    "icon_front": "white-book-1 white-book-0",
+    "contents": [
+      "subtitle | Learn the plans for <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Uncommon Rings</code> and <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Wondrous Items</code>",
+      "rule",
+      "text | At level 10, you now learn how to replicate <b>Uncommon Rings</b> and <b>Wondrous Items</b>.",
+      "section | Unlocks",
+      "bullet | Any Uncommon Ring (non-cursed)",
+      "bullet | Any Uncommon Wondrous Item (non-cursed)",
+      "text | Each item selected counts as a <b>separate plan</b>.",
+      "fill | 1",
+      "footer | Artificer Level 10 | Feature"
+    ],
+    "tags": [
+      "magic-items",
+      "replication",
+      "artificer",
+      "artificer-level-10"
+    ],
+    "title_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Item Plans Lvl14+",
+    "icon_front": "white-book-1 white-book-4",
+    "contents": [
+      "subtitle | Learn the plans for <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Rare Magic Items</code>",
+      "rule",
+      "text | At level 14 youn learn how to replicate <b>Rare</b> magic items. ",
+      "text | You may have up to <b>3 Rare replicated items</b> at a time.",
+      "section | Unlocks",
+      "bullet | Any Rare Armor (non-cursed)",
+      "bullet | Any Rare Ring (non-cursed)",
+      "bullet | Any Rare Wand (non-cursed)",
+      "bullet | Any Rare Weapon (non-cursed)",
+      "bullet | Any Rare Wondrous Item (non-cursed)",
+      "fill | 1",
+      "footer | Artificer Level 14 | Feature"
+    ],
+    "tags": [
+      "magic-items",
+      "replication",
+      "artificer",
+      "artificer-level-14"
+    ],
+    "title_size": "10"
+  }
+]

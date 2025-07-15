@@ -1,0 +1,212 @@
+[
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 1-2, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> ",
+      "",
+      "footer | Artificer | Level 1-2 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "1",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 3-4, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> ",
+      "",
+      "footer | Artificer | Level 3-4 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "3",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 5-6, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 2 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "footer | Artificer | Level 5-6 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "5",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 7-8, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 2 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "footer | Artificer | Level 5-6 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "7",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 9-10, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 2 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 3 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "footer | Artificer | Level 9-10 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "9",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 11-12, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 2 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 3 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "footer | Artificer | Level 11-12 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "11",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 13-14, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 2 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 3 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 4 Slots",
+      "text | <input type='checkbox' />",
+      "",
+      "footer | Artificer | Level 13-14 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "13",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 15-16, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 2 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 3 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 4 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "footer | Artificer | Level 15-16 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "15",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 17-18, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 2 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 3 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 4 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 5 Slots",
+      "text | <input type='checkbox' />",
+      "",
+      "footer | Artificer | Level 17-18 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "17",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Level 19-20, Spell Slots",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 1 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 2 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 3 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 4 Slots",
+      "text | <input type='checkbox' /> <input type='checkbox' /> <input type='checkbox' />",
+      "",
+      "subtitle | Level 5 Slots",
+      "text | <input type='checkbox' />  <input type='checkbox' />",
+      "",
+      "footer | Artificer | Level 19-20 | Spell Slots"
+    ],
+    "tags": [],
+    "card_level": "19",
+    "title_size": "11"
+  }
+]

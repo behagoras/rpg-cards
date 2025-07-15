@@ -1,0 +1,183 @@
+[
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Tool Proficiency",
+    "icon_front": "potion-ball",
+    "contents": [
+      "text | At  <code>Level 3</code>, you gain proficiency with <code>Alchemist’s&nbsp;Supplies</code>. If you’re already proficient, choose another set of <code>Artisan’s&nbsp;Tools</code>.",
+      "text | Brewing a potion now takes <b>½ the usual time</b> (DMG crafting rules).",
+      "footer | Artificer | Alchemist | Feature"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-3",
+      "artificer-level-3"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "card_font_size": "9",
+    "color": "seagreen",
+    "title": "Alchemist Spells",
+    "icon_front": "potion-ball",
+    "contents": [
+      "text | When you become an Alchemist by getting the Alchemist class feature at  <code>Level 3</code>, you get these spells prepared for you at the Artificer levels shown:",
+      "text | <table class='stats'><thead><tr><th>Level</th><th colspan='2'>Spells</th></tr></thead><tbody>",
+      "text | <tr><td>3</td><td><<code>Healing&nbsp;Word</code></td><td><<code>Ray&nbsp;of&nbsp;Sickness</code></td></tr>",
+      "text | <tr><td>5</td><td>Flaming&nbsp;Sphere</td><td>Melf's&nbsp;Acid&nbsp;Arrow</td></tr>",
+      "text | <tr><td>9</td><td>Gaseous&nbsp;Form</td><td>Mass&nbsp;Healing&nbsp;Word</td></tr>",
+      "text | <tr><td>13</td><td>Death&nbsp;Ward</td><td>Vitriolic&nbsp;Sphere</td></tr>",
+      "text | <tr><td>17</td><td>Cloudkill</td><td>Raise&nbsp;Dead</td></tr>",
+      "text | </tbody></table>",
+      "footer | Artificer | Alchemist | Feature"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-3",
+      "artificer-level-3"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Alchemical Savant",
+    "icon_front": "potion-ball ",
+    "contents": [
+      "text | When casting a spell using your <<code>Alchemist's Supplies</code> as your <b>Spellcasting Focus</b>, you may add your <b>Intelligence modifier</b> (minimum +1) to <i>one</i> of the healing or damage spell's rolls:",
+      "section | Rules",
+      "bullet | Healing roll — when restoring Hit Points.",
+      "bullet | Damage roll — if the spell deals <b>Acid</b>, <b>Fire</b>, <b>Necrotic</b>, or <b>Poison</b> damage.",
+      "bullet | This bonus applies <b>once per spell</b>.",
+      "bullet | Your DM may allow alternative tools as your focus, for thematic purposes.",
+      "footer | Artificer | Alchemist Level 5 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-5",
+      "artificer-level-5"
+    ],
+    "card_font_size": "11",
+    "card_level": 5
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Restorative Reagents (Alchemist)",
+    "icon_front": "round-potion ",
+    "contents": [
+      "text | Your reagents offer powerful restorative effects. ",
+      "section | Fortify",
+      "text | When a creature drinks one of your elixirs, it also gains <b>temporary hit points</b> equal to your <b>Intelligence modifier + Artificer level</b>.",
+      "",
+      "section | Restore",
+      "text | You can cast <<code>Lesser Restoration</code> without expending a spell slot or preparing the spell.",
+      "text | This requires using your <<code>Alchemist's Supplies</code> as your focus.",
+      "text | <b>Uses per Long Rest</b> = <b>Intelligence modifier</b> (minimum 1).",
+      "",
+      "footer | Artificer | Alchemist Level 9 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-9",
+      "artificer-level-9"
+    ],
+    "card_font_size": "11",
+    "title_size": "12",
+    "icon_back": "",
+    "card_level": 9
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Chemical Mastery (Alchemist)",
+    "icon_front": "potion-ball ",
+    "contents": [
+      "section | Alchemical Eruption",
+      "text | Once on each of your turns, when you cast a spell that deals <b>Acid</b>, <b>Fire</b>, <b>Necrotic</b>, or <b>Poison</b> damage, you can also deal <b>2d8 Force damage</b> to one of the targets hit.",
+      "",
+      "section | Chemical Resistance",
+      "text | You gain <b>Resistance</b> to both <b>Acid</b> and <b>Poison</b> damage.",
+      "",
+      "section | Conjured Cauldron",
+      "text | You can cast <<code>Tasha's Bubbling Cauldron</code> without expending a spell slot, without preparing it, and without material components. <b>Usable once per Long Rest</b>.",
+      "",
+      "",
+      "footer | Artificer | Alchemist Level 15 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-15",
+      "artificer-level-15"
+    ],
+    "card_font_size": "11",
+    "card_level": 15
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Experimental Elixir",
+    "icon_front": "potion-ball",
+    "card_font_size": "10",
+    "contents": [
+      "text | After each <<code>Long Rest</code>, create <b>2</b> random elixirs using your <<code>Alchemist's Supplies</code>.",
+      "text | Anyone can use a <b>Bonus Action</b> to drink or administer one to a creature within <<code>5ft</code>.",
+      "text | As a <b>Magic Action</b>, expend a <<code>spell slot</code> to brew an elixir of your choice.",
+      "text | See the <<code>Experimental Elixir</code> table for details.",
+      "section | Daily Random Elixirs",
+      "text | You can craft the following number of <b>random elixirs</b> <<code>after each Long Rest</code>. ",
+      "text | You may still brew more manually using spell slots.",
+      "text | <table class='stats'><thead><tr><th>Level 3</th><th>Level 5</th><th>Level 9</th><th>Level 15</th></tr></thead><tbody>",
+      "text | <tr><td>2</td><td>3</td><td>4</td><td>5</td></tr>",
+      "text | </tbody></table>",
+      "",
+      "footer | Artificer | Alchemist | Feature"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-3",
+      "artificer-level-3"
+    ],
+    "title_size": "13"
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Experimental Elixir Table",
+    "icon_front": "potion-ball",
+    "title_size": "12",
+    "card_font_size": "12",
+    "contents": [
+      "text | You may create elixirs using the table below, as per the <code>Experimental Elixir</code> feature.",
+      "text | <table class='stats'><thead><tr><th>d6</th><th>Effect</th></tr></thead><tbody>",
+      "text | <tr><td>1</td><td>Healing (2d8 + Int)</td></tr>",
+      "text | <tr><td>2</td><td>Swiftness (+10 ft Speed, 1 h)</td></tr>",
+      "text | <tr><td>3</td><td>Resilience (+1 AC, 10 min)</td></tr>",
+      "text | <tr><td>4</td><td>Boldness (add 1d4 to attacks & saves, 1 min)</td></tr>",
+      "text | <tr><td>5</td><td>Flight (10 ft Fly, 10 min)</td></tr>",
+      "text | <tr><td>6</td><td>Choose any effect above</td></tr>",
+      "text | </tbody></table>",
+      "footer | Artificer | Alchemist Subclass Featur| Utility"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-3",
+      "artificer-level-3"
+    ]
+  }
+  ]

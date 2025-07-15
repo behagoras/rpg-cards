@@ -1,0 +1,181 @@
+[
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Tool Proficiency",
+    "icon_front": "potion-ball white-book-3",
+    "contents": [
+      "text | At  <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Level 3</code>, you gain proficiency with <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Alchemist’s&nbsp;Supplies</code>. If you’re already proficient, choose another set of <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Artisan’s&nbsp;Tools</code>.",
+      "text | Brewing a potion now takes <b>½ the usual time</b> (DMG crafting rules).",
+      "fill | 1"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-3",
+      "artificer-level-3"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Alchemist Spells",
+    "icon_front": "potion-ball white-book-3",
+    "contents": [
+      "text | When you become an Alchemist by getting the Alchemist class feature at  <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Level 3</code>, you get these spells prepared for you at the Artificer levels shown:",
+      "text | <style>table{border-collapse:collapse;width:100%;font-size:9px}th,td{border:1px solid #000;text-align:center;padding:2px}th{background:#f2f2f2}</style>",
+      "text | <table><thead><tr><th>Level</th><th colspan='2'>Spells</th></tr></thead><tbody>",
+      "text | <tr><td>3</td><td><code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Healing&nbsp;Word</code></td><td><code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Ray&nbsp;of&nbsp;Sickness</code></td></tr>",
+      "text | <tr><td>5</td><td>Flaming&nbsp;Sphere</td><td>Melf's&nbsp;Acid&nbsp;Arrow</td></tr>",
+      "text | <tr><td>9</td><td>Gaseous&nbsp;Form</td><td>Mass&nbsp;Healing&nbsp;Word</td></tr>",
+      "text | <tr><td>13</td><td>Death&nbsp;Ward</td><td>Vitriolic&nbsp;Sphere</td></tr>",
+      "text | <tr><td>17</td><td>Cloudkill</td><td>Raise&nbsp;Dead</td></tr>",
+      "text | </tbody></table>",
+      "fill | 1"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-3",
+      "artificer-level-3"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Experimental Elixir",
+    "icon_front": "potion-ball white-book-3",
+    "card_font_size": "10",
+    "contents": [
+      "text | After each <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Long Rest</code>, create <b>2</b> random elixirs using your <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Alchemist's Supplies</code>.",
+      "text | Anyone can use a <b>Bonus Action</b> to drink or administer one to a creature within <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>5ft</code>.",
+      "text | As a <b>Magic Action</b>, expend a <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>spell slot</code> to brew an elixir of your choice.",
+      "text | See the <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Experimental Elixir</code> table for details.",
+      "section | Daily Random Elixirs",
+      "text | You can craft the following number of <b>random elixirs</b> <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>after each Long Rest</code>. ",
+      "text | You may still brew more manually using spell slots.",
+      "text | <style>table{border-collapse:collapse;width:100%;font-size:10px}th,td{border:1px solid #000;text-align:center;padding:2px}th{background:#f2f2f2}</style>",
+      "text | <table><thead><tr><th>Level 3</th><th>Level 5</th><th>Level 9</th><th>Level 15</th></tr></thead><tbody>",
+      "text | <tr><td>2</td><td>3</td><td>4</td><td>5</td></tr>",
+      "text | </tbody></table>",
+      "fill | 1",
+      ""
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-3",
+      "artificer-level-3"
+    ],
+    "title_size": "13"
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Alchemical Savant",
+    "icon_front": "potion-ball white-book-5",
+    "contents": [
+      "text | When casting a spell using your <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Alchemist's Supplies</code> as your <b>Spellcasting Focus</b>, you may add your <b>Intelligence modifier</b> (minimum +1) to <i>one</i> of the healing or damage spell's rolls:",
+      "section | Rules",
+      "bullet | Healing roll — when restoring Hit Points.",
+      "bullet | Damage roll — if the spell deals <b>Acid</b>, <b>Fire</b>, <b>Necrotic</b>, or <b>Poison</b> damage.",
+      "bullet | This bonus applies <b>once per spell</b>.",
+      "bullet | Your DM may allow alternative tools as your focus, for thematic purposes."
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-5",
+      "artificer-level-5"
+    ],
+    "card_font_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Restorative Reagents (Alchemist)",
+    "icon_front": "round-potion white-book-9",
+    "contents": [
+      "text | Your reagents offer powerful restorative effects. ",
+      "section | Fortify",
+      "text | When a creature drinks one of your elixirs, it also gains <b>temporary hit points</b> equal to your <b>Intelligence modifier + Artificer level</b>.",
+      "",
+      "section | Restore",
+      "text | You can cast <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Lesser Restoration</code> without expending a spell slot or preparing the spell.",
+      "text | This requires using your <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Alchemist's Supplies</code> as your focus.",
+      "text | <b>Uses per Long Rest</b> = <b>Intelligence modifier</b> (minimum 1).",
+      "fill | 1",
+      ""
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-9",
+      "artificer-level-9"
+    ],
+    "card_font_size": "11",
+    "title_size": "12",
+    "icon_back": ""
+  },
+  {
+    "count": 1,
+    "color": "seagreen",
+    "title": "Chemical Mastery (Alchemist)",
+    "icon_front": "potion-ball white-book-1 white-book-5",
+    "contents": [
+      "section | Alchemical Eruption",
+      "text | Once on each of your turns, when you cast a spell that deals <b>Acid</b>, <b>Fire</b>, <b>Necrotic</b>, or <b>Poison</b> damage, you can also deal <b>2d8 Force damage</b> to one of the targets hit.",
+      "",
+      "section | Chemical Resistance",
+      "text | You gain <b>Resistance</b> to both <b>Acid</b> and <b>Poison</b> damage.",
+      "",
+      "section | Conjured Cauldron",
+      "text | You can cast <code style='padding:2px 4px;font-size:90%;color:#c7254e;background:#f9f2f4;border-radius:4px;'>Tasha's Bubbling Cauldron</code> without expending a spell slot, without preparing it, and without material components. <b>Usable once per Long Rest</b>.",
+      "",
+      "fill | 1",
+      ""
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-15",
+      "artificer-level-15"
+    ],
+    "card_font_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Experimental Elixir Table",
+    "icon_front": "potion-ball white-book-3",
+    "card_font_size": "12",
+    "contents": [
+      "text | You may create elixirs using the table below, as per the <code style='padding: 2px 4px; font-size: 90%; color: #c7254e; background-color: #f9f2f4; border-radius: 4px;'>Experimental Elixir</code> feature.",
+      "text | <style>table{border-collapse:collapse;width:100%;font-size:9px}th,td{border:1px solid #000;text-align:center;padding:2px}</style>",
+      "text | <table><thead><tr><th>d6</th><th>Effect</th></tr></thead><tbody>",
+      "text | <tr><td>1</td><td>Healing (2d8 + Int)</td></tr>",
+      "text | <tr><td>2</td><td>Swiftness (+10 ft Speed, 1 h)</td></tr>",
+      "text | <tr><td>3</td><td>Resilience (+1 AC, 10 min)</td></tr>",
+      "text | <tr><td>4</td><td>Boldness (add 1d4 to attacks & saves, 1 min)</td></tr>",
+      "text | <tr><td>5</td><td>Flight (10 ft Fly, 10 min)</td></tr>",
+      "text | <tr><td>6</td><td>Choose any effect above</td></tr>",
+      "text | </tbody></table>",
+      "fill | 1"
+    ],
+    "tags": [
+      "feature",
+      "alchemist",
+      "subclass",
+      "alchemist-level-3",
+      "artificer-level-3"
+    ],
+    "title_size": "13"
+  }
+]
