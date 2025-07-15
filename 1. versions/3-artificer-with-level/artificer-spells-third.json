@@ -1,0 +1,290 @@
+[
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Blink",
+    "card_font_size": "10",
+    "icon_front": "",
+    "contents": [
+      "subtitle | 3rd-level transmutation",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>Self</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>1 minute</td></tr>",
+      "text | </tbody></table>",
+      "text | At the end of each of your turns, roll  <code>d20</code> (<b>11 +</b> ⇢ <span style='white-space:nowrap;'>blink</span>).",
+      "text | On a success you vanish to the <b>Ethereal Plane</b> until the start of your next turn, reappearing in the last space you occupied (or the nearest unoccupied space).",
+      "text | While ethereal, you can see and move through creatures & objects (difficult terrain); you see <b>60 ft</b> into the Material Plane but can’t affect it.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "transmutation",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Create Food and Water",
+    "icon_front": "",
+    "contents": [
+      "subtitle | 3rd-level conjuration",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>30 ft</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (pinch of salt, sugar, & rice)</td></tr>",
+      "text | <tr><th>Duration</th><td>Instantaneous</td></tr>",
+      "text | </tbody></table>",
+      "text | You create <b>45 lb</b> of wholesome food and <b>30 gal.</b> of clean water on the ground or in containers within range.",
+      "text | The food nourishes up to <b>15 Medium</b> creatures for 24 h; water suffices the same number.",
+      "text | Food spoils and water evaporates after 24 h if unused.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "conjuration",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Dispel Magic",
+    "icon_front": "",
+    "card_font_size": "10",
+    "contents": [
+      "subtitle | 3rd-level abjuration",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>120 ft</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>Instantaneous</td></tr>",
+      "text | </tbody></table>",
+      "text | Choose one creature, object, or magical effect within range.",
+      "text | A spell of <b>3rd level or lower</b> on the target ends automatically.",
+      "text | For a spell of <b>4th +</b>, make an ability check using your spellcasting mod; DC = 10 + spell level. On a success, the spell ends.",
+      "text | <b>At Higher Levels.</b> Automatically end spells ≤ slot level used.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "abjuration",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Elemental Weapon",
+    "icon_front": "",
+    "contents": [
+      "subtitle | 3rd-level transmutation (concentration)",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>Touch</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 1 hour</td></tr>",
+      "text | </tbody></table>",
+      "text | The touched non-magical weapon becomes a <b>+1</b> magic weapon and deals an extra  <code>1d4</code> of <b>Acid, Cold, Fire, Lightning, or Thunder</b> (your choice).",
+      "text | <b>At Higher Levels.</b> 5th-level slot ⇢ +2 &  <code>2d4</code>; 7th-level slot ⇢ +3 &  <code>3d4</code>.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "transmutation",
+      "concentration",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Fly",
+    "icon_front": "",
+    "contents": [
+      "subtitle | 3rd-level transmutation (concentration)",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>Touch</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (wing feather)</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 10 minutes</td></tr>",
+      "text | </tbody></table>",
+      "text | Target gains a <b>60-ft fly speed</b>; if spell ends while airborne, creature descends 60 ft/round for 1 round then falls.",
+      "text | <b>At Higher Levels.</b> +1 creature per slot level above 3rd.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "transmutation",
+      "concentration",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Glyph of Warding",
+    "icon_front": "",
+    "card_font_size": "10",
+    "contents": [
+      "subtitle | 3rd-level abjuration (M)",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Hour</td></tr>",
+      "text | <tr><th>Range</th><td>Touch</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (incense & diamond dust 200 gp)</td></tr>",
+      "text | <tr><th>Duration</th><td>Until dispelled or triggered</td></tr>",
+      "text | </tbody></table>",
+      "text | Inscribe a <b>glyph</b> on a surface or object; choose triggering conditions and either:",
+      "bullet | <b>Explosive Runes</b> —  <code>5d8</code> elemental damage in  <code>20-ft</code> radius.",
+      "bullet | <b>Spell Glyph</b> — Store a <i>≤ 3rd-level</i> spell that casts on trigger.",
+      "text | Only one glyph per surface; <i>Dispel Magic</i> removes it.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "abjuration",
+      "material",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Haste",
+    "icon_front": "",
+    "card_font_size": "10",
+    "contents": [
+      "subtitle | 3rd-level transmutation (concentration)",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>30 ft</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (licorice shaving)</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 1 minute</td></tr>",
+      "text | </tbody></table>",
+      "text | Target’s speed doubles, AC +2, Adv. Dex saves, and it gains <b>1 extra Action</b> each turn (Attack (1), Dash, Disengage, Hide, or Use Object).",
+      "text | When the spell ends, the creature can’t move or act until after its next turn (lethargy).",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "transmutation",
+      "concentration",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Protection from Energy",
+    "icon_front": "",
+    "card_font_size": "10",
+    "contents": [
+      "subtitle | 3rd-level abjuration (concentration)",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>Touch</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 1 hour</td></tr>",
+      "text | </tbody></table>",
+      "text | The creature gains <b>Resistance</b> to one damage type of your choice: Acid, Cold, Fire, Lightning, or Thunder.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "abjuration",
+      "concentration",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Revivify",
+    "icon_front": "",
+    "card_font_size": "10",
+    "contents": [
+      "subtitle | 3rd-level necromancy (M)",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>Touch</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (diamonds 300 gp)</td></tr>",
+      "text | <tr><th>Duration</th><td>Instantaneous</td></tr>",
+      "text | </tbody></table>",
+      "text | Touch a creature that died within the last <b>1 minute</b>. The creature returns to life with  <code>1 HP</code> and no equipment lost.",
+      "text | The spell can’t return a creature that died of old age nor restore missing body parts.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "necromancy",
+      "material",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "maroon",
+    "title": "Water Breathing",
+    "icon_front": "",
+    "card_font_size": "10",
+    "contents": [
+      "subtitle | 3rd-level transmutation (ritual)",
+      "rule",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 Action</td></tr>",
+      "text | <tr><th>Range</th><td>30 ft</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (short reed or piece of straw)</td></tr>",
+      "text | <tr><th>Duration</th><td>24 hours</td></tr>",
+      "text | </tbody></table>",
+      "text | Up to <b>10 willing creatures</b> you can see gain the ability to breathe underwater for the duration.",
+      "footer | Artificer | Spell Level 3 | Artificer Level 9"
+    ],
+    "tags": [
+      "spell",
+      "spell-level-3",
+      "transmutation",
+      "ritual",
+      "artificer",
+      "artificer-level-9"
+    ],
+    "card_level": 3
+  }
+]

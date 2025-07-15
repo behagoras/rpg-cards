@@ -1,0 +1,454 @@
+[
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Artificer",
+    "icon_front": "gear-hammer",
+    "card_font_size": "9",
+    "contents": [
+      "subtitle | Class Overview",
+      "rule",
+      "text | A <b>magical inventor</b> and <b>crafter</b>, the <code>Artificer</code> blends arcane knowledge with <b>mechanical genius</b>. They infuse mundane objects with magical power, crafting tools, potions, and gadgets that reshape the battlefield.",
+      "rule",
+      "section | Core Traits",
+      "bullet | <b>Primary Ability</b>: Intelligence",
+      "bullet | <b>Hit Dice</b>: <code>1d8</code> per Artificer level",
+      "bullet | <b>Armor</b>: Light Armor, Medium Armor, Shields",
+      "bullet | <b>Weapons</b>: Simple Weapons",
+      "bullet | <b>Tools</b>: Thieves' Tools, Tinker's Tools, one type of Artisan's Tools",
+      "bullet | <b>Saving Throws</b>: Constitution, Intelligence",
+      "bullet | <b>Skills</b>: Choose 2 from Arcana, History, Investigation, Medicine, Nature, Perception, Sleight of Hand",
+      "section",
+      "",
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "class",
+      "artificer",
+      "artificer-level-1"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "steelblue",
+    "title": "Artificer Levels Progression",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Class Table | Levels 1–20",
+      "rule",
+      "",
+      "bullet | <b>Lvl1</b>: Spellcasting, Magical Tinkering",
+      "bullet | <b>Lvl2</b>: Replicate Magic Item (4 plans), 1 item",
+      "bullet | <b>Lvl3</b>: Subclass, Right Tool for the Job",
+      "bullet | <b>Lvl4</b>: Ability Score Improvement",
+      "bullet | <b>Lvl5</b>: Spell Slots: 2nd level unlocked",
+      "bullet | <b>Lvl6</b>: Magic Item Tinker, 3 items",
+      "bullet | <b>Lvl7</b>: Flash of Genius",
+      "bullet | <b>Lvl8</b>: Ability Score Improvement",
+      "bullet | <b>Lvl9</b>: Spell Slots: 3rd level unlocked",
+      "bullet | <b>Lvl10</b>: Magic Item Adept (4 attunements)",
+      "bullet | <b>Lvl11</b>: Spell-Storing Item",
+      "bullet | <b>Lvl12</b>: Ability Score Improvement",
+      "bullet | <b>Lvl13</b>: Spell Slots: 4th level unlocked",
+      "bullet | <b>Lvl14</b>: Magic Item Savant (5 attunements)",
+      "bullet | <b>Lvl15</b>: Subclass Feature",
+      "bullet | <b>Lvl16</b>: Ability Score Improvement",
+      "bullet | <b>Lvl17</b>: Spell Slots: 5th level unlocked",
+      "bullet | <b>Lvl18</b>: Magic Item Master (6 attunements)",
+      "bullet | <b>Lvl19</b>: Epic Boon",
+      "bullet | <b>Lvl20</b>: Soul of Artifice",
+      "",
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "progression",
+      "class",
+      "artificer",
+      "artificer-level-1"
+    ],
+    "card_font_size": "9",
+    "title_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Magical Tinkering",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | Since  <code>Level 1</code>, as an Action while holding <b>Tinker's Tools</b>, you can conjure one basic item in an unoccupied space within 5 feet. The item lasts for 1 hour.",
+      "text | You can do this a number of times equal to your <b>Intelligence modifier</b> (minimum 1) per Long Rest.",
+      "section | Item Options",
+      "text | <code>Ball Bearings</code><b>,</b> <code>Basket</code><b>,</b> <code>Bedroll</code><b>,</b> <code>Bell</code><b>,</b> <code>Blanket</code><b>,</b> <code>Block and Tackle</code><b>,</b> <code>Bucket</code><b>,</b> <code>Caltrops</code><b>,</b> <code>Candle</code><b>,</b> <code>Crowbar</code><b>,</b> <code>Flask</code><b>,</b> <code>Jug</code><b>,</b> <code>Lamp</code><b>,</b> <code>Net</code><b>,</b> <code>Oil</code><b>,</b> <code>Paper</code><b>,</b> <code>Parchment</code><b>,</b> <code>Pole</code><b>,</b> <code>Pouch</code><b>,</b> <code>Rope</code><b>,</b> <code>Sack</code><b>,</b> <code>Shovel</code><b>,</b> <code>String</code><b>,</b> <code>Tinderbox</code><b>,</b> <code>Torch</code><b>,</b> <code>Vial</code>",
+      "",
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-1"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Spellcasting (1/2)",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | You channel magic through your <b>tools</b>, crafting spells instead of casting them in the traditional way.",
+      "section | Tools as Focus",
+      "text | Use <b>Thieves' Tools</b>, <b>Tinker's Tools</b>, or any <b>Artisan's Tools</b> you're proficient with as your <b>Spellcasting Focus</b>. You must be holding it to cast spells with an <code>M</code> component.",
+      "section | Cantrips",
+      "text | Know <b>2 cantrips</b> from the Artificer list.  ",
+      "text | After a Long Rest, you may <b>swap 1</b> for another.  ",
+      "text | At levels <b>10</b> and <b>14</b>, you learn an additional cantrip.",
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-1"
+    ],
+    "card_font_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Spellcasting (2/2)",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "section | Spellcasting Ability",
+      "text | <b>Spellcasting Ability:</b> Intelligence  ",
+      "text | Use Intelligence for spell attack rolls and saving throw DCs.",
+      "section | Prepared Spells",
+      "text | Prepare <b>Intelligence modifier + Artificer level</b> spells (minimum 1).  ",
+      "text | Choose from the Artificer list. Cure Wounds and Grease are recommended.",
+      "section | Spell Slots",
+      "text | As a <b>half caster</b>, you gain spell slots more slowly than full casters.",
+      "text | All slots are regained after a Long Rest.",
+      "text | If you multiclass, treat each level in Artificer as <b>½ level</b> (rounded up) when calculating your total caster level for determining spell slots. Add this to your full caster levels.",
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-1"
+    ],
+    "card_font_size": "9"
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Replicate Magic Item",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | You learn arcane <b>plans</b> that let you craft <code>magic items</code> at the end of a Long Rest using <code>Tinker's Tools</code>.",
+      "section | Crafting Rules",
+      "text | • Choose <b>4 magic item plans</b> when you gain this feature",
+      "text | • Create <b>1–2 items</b> after a Long Rest (must be different)",
+      "text | • Must be items you have plans for",
+      "text | • If item requires attunement, you can attune during creation",
+      "text | • Items vanish when you die or exceed your item limit",
+      "section | Item Duration",
+      "text | Items replicate real magic items but are not permanent",
+      "text | • They vanish <b>1d4 days</b> after your death",
+      "text | • Contents of containers (like <code>Bag of Holding</code>) reappear safely",
+      "section | Plan Management",
+      "text | • Learn additional plans as you level up",
+      "text | • Swap 1 plan when you gain a level",
+      "",
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-1"
+    ],
+    "card_font_size": "8"
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Soul of Artifice",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Level 20 Feature",
+      "rule",
+      "text | Cheat Death: When dropped to 0 HP, disintegrate a replicated Uncommon/Rare item to instead return to 20 HP.",
+      "text | Magical Guidance: While attuned to at least 1 item, add 1d6 to any ability check once per turn.",
+      "footer | Artificer Level 20 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-20"
+    ],
+    "card_level": 20
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Right Tool for the Job",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | Since  <code>Level 3</code>, Magical Tinkering can now create any set of <b>Artisan's Tools</b> instantly, using your tools and creativity.",
+      "section | Available Tool Sets",
+      "text | <table class='stats'>",
+      "text | <tr><td style='padding-right: 18px;'>Alchemist's Supplies</td><td>Brewer's Supplies</td></tr>",
+      "text | <tr><td style='padding-right: 18px;'>Calligrapher's Supplies</td><td>Carpenter's Tools</td></tr>",
+      "text | <tr><td style='padding-right: 18px;'>Cartographer's Tools</td><td>Cobbler's Tools</td></tr>",
+      "text | <tr><td style='padding-right: 18px;'>Cook's Utensils</td><td>Glassblower's Tools</td></tr>",
+      "text | <tr><td style='padding-right: 18px;'>Jeweler's Tools</td><td>Leatherworker's Tools</td></tr>",
+      "text | <tr><td style='padding-right: 18px;'>Mason's Tools</td><td>Painter's Supplies</td></tr>",
+      "text | <tr><td style='padding-right: 18px;'>Potter's Tools</td><td>Smith's Tools</td></tr>",
+      "text | <tr><td style='padding-right: 18px;'>Tinker's Tools</td><td>Weaver's Tools</td></tr>",
+      "text | <tr><td style='padding-right: 18px;'>Woodcarver's Tools</td><td>—</td></tr>",
+      "text | </table>",
+      "",
+      "footer | Artificer Level 3 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-3"
+    ],
+    "card_font_size": "9",
+    "title_size": "11",
+    "card_level": 3
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Item Tinker",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | Since  <code>Level 6</code>, <b>Drain Magic Item</b> (<code>Bonus Action</code>): Touch a <code>Replicate Magic Item</code> you created within 5 ft and dismiss it to gain a temporary spell slot.",
+      "text | • <code>Common item</code> → <b>1st-level spell slot</b>",
+      "text | • <code>Uncommon/Rare item</code> → <b>2nd-level spell slot</b>",
+      "text | <b>Limit:</b> 1 use per Long Rest. Slot expires at next Long Rest.",
+      "rule",
+      "text | <b>Expanded Replication</b>: You can now learn plans for <b>Uncommon items</b> (e.g. <code>Armor +1</code>, <code>Boots of Elvenkind</code>, <code>Eyes of Charming</code>).",
+      "",
+      "footer | Artificer Level 6 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-6"
+    ],
+    "page_width": "8.5in",
+    "page_height": "11in",
+    "card_level": 6
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Drain Magic Item",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "",
+      "text | <b>Bonus Action</b>: Touch a <code>Replicated Magic Item</code> within 5 ft and dismiss it to convert its energy into a temporary spell slot.",
+      "section | Slot Conversion",
+      "text | • <code>Common item</code> → <b>1st-level</b> spell slot",
+      "text | • <code>Uncommon or Rare</code> item → <b>2nd-level</b> spell slot",
+      "section | Limits",
+      "text | <b>Uses:</b> 1 per Long Rest",
+      "text | <b>Expiration:</b> Slot vanishes at end of next Long Rest",
+      "",
+      "footer | Artificer Level 6 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-6"
+    ],
+    "page_width": "8.5in",
+    "page_height": "11in",
+    "card_level": 6
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Flash of Genius",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | When you or a creature you can see within <b>30 feet</b> fails an <b>Ability Check</b> or a <b>Saving Throw</b>, you can use your <b>Reaction</b> to add a bonus to the roll.",
+      "text | The bonus equals your <code>Intelligence modifier</code> (minimum 1).",
+      "text | You can decide to use this feature <b>after seeing the roll</b>, but before its outcome is determined.",
+      "section | Uses per Long Rest",
+      "text | You can use this feature a number of times equal to your <b>Intelligence modifier</b> (minimum once).",
+      "text | You regain all expended uses when you finish a <b>Long Rest</b>.",
+      "",
+      "footer | Artificer Level 7 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-7"
+    ],
+    "card_font_size": "11",
+    "card_level": 7
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Item Adept",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | You have achieved a profound mastery over magical craftsmanship, allowing you to handle more magic items and craft them with greater efficiency.",
+      "section | Attunement Upgrade",
+      "text | You can now attune to <b>up to 4 magic items</b> at once, rather than the usual limit of 3.",
+      "section | Efficient Replication",
+      "text | When using <code>Replicate Magic Item</code> to craft a <b>Common</b> or <b>Uncommon</b> item:",
+      "bullet | The crafting time is reduced to <b>¼</b> of the standard time.",
+      "bullet | The gold cost is reduced to <b>½</b> of the standard cost.",
+      "",
+      "footer | Artificer Level 10 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-10"
+    ],
+    "card_level": 10
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Spell-Storing Item",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | Store magical power inside a weapon or focus, allowing others to cast a spell you infused.",
+      "section | Infuse a Spell",
+      "text | After a Long Rest, touch a <b>Simple/Martial weapon</b> or <b>Spellcasting Focus</b>.",
+      "text | Choose a <b>1st–3rd level Artificer spell</b> with <b>1 Action</b> casting time (need not be prepared).",
+      "text | That spell is stored in the object.",
+      "section | Casting",
+      "text | A creature holding it may use an <b>Action</b> to cast the spell, using your <b>spellcasting ability modifier</b>. It must Concentrate if required.",
+      "section | Limits",
+      "bullet | Uses = <b>2 × Int mod</b> (min 2)",
+      "bullet | Recharge: After each Long Rest",
+      "bullet | Storing a new spell replaces the old one, even if unused",
+      "text | The spell remains until expended / replaced.",
+      "footer | Artificer Level 11 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-11"
+    ],
+    "card_font_size": "9",
+    "card_level": 11
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Item Savant",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | You've honed your expertise with magic items, enhancing your attunement capacity and unlocking rare replications.",
+      "section | Attunement",
+      "text | You can attune to up to <b>5 magic items</b> simultaneously.",
+      "section | Rare Item Replication",
+      "text | When choosing plans for your <b>Replicate Magic Item</b> feature, you can now select from the <b>Rare magic item list</b>.",
+      "text | You may have up to <b>3 Rare replicated items</b> active at the same time.",
+      "footer | Artificer Level 14 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-14"
+    ],
+    "card_level": 14
+  },
+  {
+    "count": 1,
+    "color": "darkorange",
+    "title": "Magic Item Master",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | At the peak of your craft, your affinity for <code>magic items</code> becomes unmatched.",
+      "text | You can now attune to <b>up to <code>six</code> magic items simultaneously</b>, instead of the usual limit of <code>three</code>.",
+      "section | Attunement Overload",
+      "text | This exceptional capacity allows you to wield and benefit from more magical effects than any other adventurer.",
+      "text | Only <b>one item</b> may be attuned per <code>Short Rest</code>, as normal, but your total attuned capacity increases to <code>six</code>.",
+      "text | You are still bound by all other standard <code>attunement</code> rules.",
+      "footer | Artificer Level 18 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-18"
+    ],
+    "card_level": 18
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Ability Score Improvement",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "subtitle | Levels <code>4</code>, <code>8</code>, <code>12</code> & <code>16</code>",
+      "rule",
+      "text | At these levels, you gain the <b>Ability Score Improvement</b> feat <i>or</i> a feat of your choice.",
+      "section | Improvement Options",
+      "bullet | Increase one ability by <b>+2</b> <code>OR</code> two abilities by <b>+1</b> each.",
+      "bullet | You can't raise an ability above <code>20</code> with this feature.",
+      "section | Strategic Tip",
+      "text | Consider whether boosting your spellcasting stat or picking up a versatile feat better suits your current role.",
+      "footer | Artificer Level 4 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-4",
+      "artificer-level-8",
+      "artificer-level-12",
+      "artificer-level-16"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Epic Boon",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | Gain the <b>Epic Boon</b> feat, or another feat of your choice.",
+      "section | What's an Epic Boon?",
+      "text | Epic Boons are powerful late-game feats, exclusive to tier 4 adventurers. ",
+      "text | They often grant strong passive effects or abilities beyond standard limits.",
+      "section | Examples",
+      "bullet |  <code>Boon of Energy Resistance</code> — reduce elemental damage.",
+      "bullet |  <code>Boon of Fortitude</code> — +40 max HP.",
+      "bullet |  <code>Boon of High Magic</code> — gain a 9th-level slot.",
+      "section | Rules",
+      "bullet | No ability can exceed <code>20</code> unless explicitly allowed.",
+      "",
+      "footer | Artificer Level 19 | Feature"
+    ],
+    "tags": [
+      "feature",
+      "artificer",
+      "artificer-level-19"
+    ],
+    "card_font_size": "10",
+    "card_level": 19
+  },
+  {
+    "count": 1,
+    "color": "royalblue",
+    "title": "Multiclass Note",
+    "icon_front": "gear-hammer",
+    "card_font_size": "9",
+    "contents": [
+      "text | When multiclassing, add <b>½ your Artificer levels (round up)</b> to your full-caster levels to determine total spell slots.",
+      "text | Example: Fighter 3 / Artificer 5 counts as <b>Full Caster L = 5</b> (3 + ⌈5÷2⌉).",
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "rules",
+      "artificer",
+      "artificer-level-1"
+    ]
+  }
+]

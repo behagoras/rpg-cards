@@ -1,0 +1,115 @@
+[
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Artificer Cantrips Known",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "text | An artificer may learn new cantrips at the next level progression.",
+      "text | <table class='stats'><thead><tr><th>Lv Range</th><th>Cantrips</th></tr></thead><tbody>",
+      "text | <tr><td>1–9</td><td>2</td></tr>",
+      "text | <tr><td>10–13</td><td>3</td></tr>",
+      "text | <tr><td>14–20</td><td>4</td></tr>",
+      "text | </tbody></table>",
+      "rule",
+      "section | Cantrip Swap",
+      "text | An artificer may <b>Swap 1 cantrip</b> after each Long Rest.",
+      "",
+      "",
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "progress",
+      "artificer",
+      "artificer-level-1"
+    ],
+    "title_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Prepared Spells / Day",
+    "icon_front": "gear-hammer",
+    "card_font_size": "9",
+    "contents": [
+      "section | Prepared Spells (Int mod + Lv)",
+      "text | <table class='stats'><thead><tr><th>Lv Range</th><th>Prep.</th></tr></thead><tbody>",
+      "text | <tr><td>1</td><td>2</td></tr>",
+      "text | <tr><td>2</td><td>3</td></tr>",
+      "text | <tr><td>3</td><td>4</td></tr>",
+      "text | <tr><td>4</td><td>5</td></tr>",
+      "text | <tr><td>5–6</td><td>6</td></tr>",
+      "text | <tr><td>7–8</td><td>7</td></tr>",
+      "text | <tr><td>9–10</td><td>9</td></tr>",
+      "text | <tr><td>11–12</td><td>10</td></tr>",
+      "text | <tr><td>13–14</td><td>11</td></tr>",
+      "text | <tr><td>15–16</td><td>12</td></tr>",
+      "text | <tr><td>17–18</td><td>14</td></tr>",
+      "text | <tr><td>19–20</td><td>15</td></tr>",
+      "text | </tbody></table>",
+      
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "progress",
+      "artificer",
+      "artificer-level-1"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Artificer Spell Slots",
+    "icon_front": "gear-hammer",
+    "title_size": "13",
+    "contents": [
+      "section | Spell Slots By Level",
+      "text | <table class='stats'><thead><tr><th>Levels</th><th>1st</th><th>2nd</th><th>3rd</th><th>4th</th><th>5th</th></tr></thead><tbody>",
+      "text | <tr><td>1–2</td><td>2</td><td></td><td></td><td></td><td></td></tr>",
+      "text | <tr><td>3–4</td><td>3</td><td></td><td></td><td></td><td></td></tr>",
+      "text | <tr><td>5–6</td><td>4</td><td>2</td><td></td><td></td><td></td></tr>",
+      "text | <tr><td>7–8</td><td>4</td><td>3</td><td></td><td></td><td></td></tr>",
+      "text | <tr><td>9–10</td><td>4</td><td>3</td><td>2</td><td></td><td></td></tr>",
+      "text | <tr><td>11–12</td><td>4</td><td>3</td><td>3</td><td></td><td></td></tr>",
+      "text | <tr><td>13–14</td><td>4</td><td>3</td><td>3</td><td>1</td><td></td></tr>",
+      "text | <tr><td>15–16</td><td>4</td><td>3</td><td>3</td><td>2</td><td></td></tr>",
+      "text | <tr><td>17–18</td><td>4</td><td>3</td><td>3</td><td>3</td><td>1</td></tr>",
+      "text | <tr><td>19–20</td><td>4</td><td>3</td><td>3</td><td>3</td><td>2</td></tr>",
+      "text | </tbody></table>",
+      
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "spell-slots",
+      "artificer",
+      "artificer-level-1"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Plans & Items (Condensed)",
+    "icon_front": "gear-hammer",
+    "contents": [
+      "section | Replicate Magic Item Progress",
+      "text | <table class='stats'><thead><tr><th>Lv Range</th><th>Plans</th><th>Items</th></tr></thead><tbody>",
+      "text | <tr><td>1</td><td>—</td><td>—</td></tr>",
+      "text | <tr><td>2–4</td><td>4</td><td>2</td></tr>",
+      "text | <tr><td>5</td><td>4</td><td>2</td></tr>",
+      "text | <tr><td>6–8</td><td>5</td><td>3</td></tr>",
+      "text | <tr><td>9–10</td><td>5</td><td>3</td></tr>",
+      "text | <tr><td>11–13</td><td>6</td><td>4</td></tr>",
+      "text | <tr><td>14–16</td><td>7</td><td>5</td></tr>",
+      "text | <tr><td>17</td><td>7</td><td>5</td></tr>",
+      "text | <tr><td>18–20</td><td>8</td><td>6</td></tr>",
+      "text | </tbody></table>",
+      
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "progress",
+      "artificer",
+      "artificer-level-1"
+    ]
+  }
+]
