@@ -1,0 +1,390 @@
+[
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Armor of Agathys",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Abjuration</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>Self</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (a cup of water)</td></tr>",
+      "text | <tr><th>Duration</th><td>1 hour</td></tr>",
+      "text | </tbody></table>",
+      "text | A magical frost covers you, gaining <code>5 temporary hit points</code>. ",
+      "text | While these remain, any creature that hits you with a melee attack takes <code>5 cold damage</code>.",
+      "text | <b>At Higher Levels.</b> Temp HP and cold damage increase by 5 for each slot level above 1st.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Arms of Hadar",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Conjuration</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>Self (10-foot radius)</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>Instantaneous</td></tr>",
+      "text | </tbody></table>",
+      "text | Tendrils of dark energy erupt around you. ",
+      "text | Each creature in the area must make a Strength saving throw. On a fail, it takes <code>2d6 necrotic damage</code> and can't take reactions until its next turn. ",
+      "text | On a success, it takes half damage and no other effect.",
+      "text | <b>At Higher Levels.</b> Damage increases by <code>1d6</code> per slot level above 1st.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Bane",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>30 feet</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (a drop of blood)</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 1 minute</td></tr>",
+      "text | </tbody></table>",
+      "text | Up to 3 creatures must make a Charisma saving throw. On a fail, they subtract <code>1d4</code> from attack rolls and saving throws for the duration.",
+      "text | <b>At Higher Levels.</b> Target one additional creature per slot level above 1st.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Charm Person",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>30 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>1 hour</code></td></tr>",
+      "text | </tbody></table>",
+      "text | You attempt to charm a humanoid you can see within range. ",
+      "text | It must make a <b>Wisdom saving throw</b>, with <b>advantage</b> if you or your companions are fighting it. ",
+      "text | On a failed save, the creature is <b>charmed</b> by you until the spell ends or until you or your allies do anything harmful to it.",
+      "text | The charmed creature regards you as a <b>friendly acquaintance</b>.",
+      "text | <b>At Higher Levels.</b> When you cast this spell using a spell slot of 2nd level or higher, you can target one additional humanoid for each slot level above 1st. The humanoids must be within 30 feet of each other.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "8"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Comprehend Languages",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Divination (Ritual)</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>Self</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (a pinch of soot and salt)</td></tr>",
+      "text | <tr><th>Duration</th><td>1 hour</td></tr>",
+      "text | </tbody></table>",
+      "text | For the duration, you understand the literal meaning of any spoken language you hear. ",
+      "text | You also understand written languages, but must be touching the surface the words are on. ",
+      "text | It takes 1 minute to read one page of text.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "11",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Detect Magic",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Divination (Ritual)</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>Self</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 10 minutes</td></tr>",
+      "text | </tbody></table>",
+      "text | For the duration, you sense the presence of magic within 30 feet of you. ",
+      "text | If you sense magic, you can use your action to see a faint aura around any visible creature or object that bears magic, and you learn its school, if any. ",
+      "text | The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of metal, or 3 feet of wood or dirt.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Expeditious Retreat",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Transmutation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 bonus action</td></tr>",
+      "text | <tr><th>Range</th><td>Self</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 10 minutes</td></tr>",
+      "text | </tbody></table>",
+      "text | This spell allows you to move at an incredible pace. ",
+      "text | When you cast this spell, and then as a bonus action on each of your turns, you can take the Dash action.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Hellish Rebuke",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Evocation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 reaction (when you take damage)</td></tr>",
+      "text | <tr><th>Range</th><td>60 feet</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>Instantaneous</td></tr>",
+      "text | </tbody></table>",
+      "text | You point your finger, and the creature that damaged you is momentarily surrounded by hellish flames. ",
+      "text | The creature must make a Dexterity saving throw. ",
+      "text | It takes <code>2d10 fire damage</code> on a failed save, or half as much on a success.",
+      "text | <b>At Higher Levels.</b> Damage increases by <code>1d10</code> per slot level above 1st.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Hex",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 bonus action</td></tr>",
+      "text | <tr><th>Range</th><td>90 feet</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (petrified eye of a newt)</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 1 hour</td></tr>",
+      "text | </tbody></table>",
+      "text | You place a curse on a creature you can see. ",
+      "text | Until the spell ends, it takes <code>1d6 necrotic damage</code> whenever you hit it with an attack. ",
+      "text | Also, choose one ability—target has disadvantage on ability checks made with the chosen ability.",
+      "text | <b>At Higher Levels.</b> Duration increases with slot level: 8 hours (3rd+), 24 hours (5th), 1 week (7th+).",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "9"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Illusory Script",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Illusion (Ritual)</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 minute</td></tr>",
+      "text | <tr><th>Range</th><td>Touch</td></tr>",
+      "text | <tr><th>Components</th><td>S, M (lead-based ink worth 10 gp)</td></tr>",
+      "text | <tr><th>Duration</th><td>10 days</td></tr>",
+      "text | </tbody></table>",
+      "text | You write on a surface, making the text appear normal, written in your hand, and conveying whatever meaning you intend to the intended viewer. ",
+      "text | To others, it appears as unintelligible or as another message entirely. ",
+      "text | A creature with truesight can see the true script. Detect Magic reveals illusion.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "",
+    "title": "Protection from Evil and Good",
+    "card_level": "1",
+    "contents": [
+      "section | Protection from Evil and Good",
+      "text | <b>1st-level Abjuration</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Touch</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S, M</code> (holy water or silver and iron)</td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 10 minutes</code></td></tr>",
+      "text | </tbody></table>",
+      "text | One willing creature you touch is protected from <b>aberrations, celestials, elementals, fey, fiends, and undead</b>. ",
+      "text | These creatures have <b>disadvantage</b> on attack rolls against the target, and the target can't be <b>charmed, frightened, or possessed</b> by them.",
+      "text | If the target is already charmed, frightened, or possessed, it has <b>advantage</b> on new saving throws against the effect.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "9",
+    "title_size": "13"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Speak with Animals",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Divination (Ritual)</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>Self</td></tr>",
+      "text | <tr><th>Components</th><td>V, S</td></tr>",
+      "text | <tr><th>Duration</th><td>10 minutes</td></tr>",
+      "text | </tbody></table>",
+      "text | For the duration, you gain the ability to comprehend and verbally communicate with beasts. ",
+      "text | The knowledge and awareness of many beasts is limited by their intelligence, but they can give you information about nearby locations, monsters, or recent events.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Tasha's Hideous Laughter",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>30 feet</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (tiny tart and feather)</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 1 minute</td></tr>",
+      "text | </tbody></table>",
+      "text | A creature of your choice perceives everything as hilariously funny and falls into fits of laughter if it fails a Wisdom saving throw. ",
+      "text | It falls prone and becomes incapacitated. At the end of each of its turns and each time it takes damage, it can make another save.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10",
+    "title_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Unseen Servant",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Conjuration (Ritual)</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>60 feet</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (piece of string and bit of wood)</td></tr>",
+      "text | <tr><th>Duration</th><td>1 hour</td></tr>",
+      "text | </tbody></table>",
+      "text | This spell creates an invisible, mindless, shapeless force that performs simple tasks at your command. ",
+      "text | It can fetch, clean, mend, hold, or open things. It has AC 10, 1 HP, STR 2, and can't attack.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "magic-swirl",
+    "title": "Witch Bolt",
+    "card_level": "1",
+    "contents": [
+      "text | <b>1st-level Evocation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th>Casting Time</th><td>1 action</td></tr>",
+      "text | <tr><th>Range</th><td>30 feet</td></tr>",
+      "text | <tr><th>Components</th><td>V, S, M (twig from a tree struck by lightning)</td></tr>",
+      "text | <tr><th>Duration</th><td>Concentration, up to 1 minute</td></tr>",
+      "text | </tbody></table>",
+      "text | A beam of crackling blue energy lances out toward a creature. ",
+      "text | Make a ranged spell attack; on hit, it takes <code>1d12 lightning damage</code>, and on subsequent turns you can use your action to deal another <code>1d12</code> automatically. ",
+      "text | The spell ends if the target moves out of range or has total cover.",
+      "footer | Warlock | 1st-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10"
+  }
+]

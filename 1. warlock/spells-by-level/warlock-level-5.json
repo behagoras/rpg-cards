@@ -1,0 +1,285 @@
+[
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "teleport",
+    "title": "Blink",
+    "card_level": "5",
+    "contents": [
+      "text | <b>3rd-level Transmutation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Self</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>1 minute</code></td></tr>",
+      "text | </tbody></table>",
+      "text | At the end of each turn, roll <code>d20</code>. On <code>11 or higher</code>, you vanish to the <b>Ethereal Plane</b>.",
+      "text | At start of next turn, reappear in an unoccupied space within <code>10 feet</code> of where you vanished.",
+      "footer | Warlock | 3rd-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "brain",
+    "title": "Contact Other Plane",
+    "card_level": "5",
+    "contents": [
+      "text | <b>5th-level Divination (Ritual)</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 minute</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Self</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>1 minute</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Mentally contact extraplanar entity. ",
+      "text | Make a <b>DC 15 Intelligence saving throw</b>. On fail, take <code>6d6 psychic damage</code> and go insane for 1 minute.",
+      "text | On success, ask <code>5 questions</code> with <code>yes/no/unclear/irrelevant</code> answers.",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10",
+    "title_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "moon",
+    "title": "Dream",
+    "card_level": "5",
+    "contents": [
+      "text | <b>5th-level Illusion</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 minute</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Special</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>8 hours</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Send a <b>phantasmal messenger</b> into a target’s dream.",
+      "text | You can appear and converse. ",
+      "text | If you change form to a nightmare, target takes <code>3d6 psychic damage</code> and gains no rest.",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "lock",
+    "title": "Hold Monster",
+    "card_level": "5",
+    "contents": [
+      "text | <b>5th-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>90 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S, M</code> (a small straight piece of iron)</td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 1 minute</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Choose a creature. It makes a <b>Wisdom saving throw</b> or becomes <b>paralyzed</b> for the duration.",
+      "text | Target may repeat the save at the end of each turn.",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "lightning",
+    "title": "Jallarzi's Storm of Radiance",
+    "card_level": "5",
+    "contents": [
+      "section|Jallarzi's Storm of Radiance",
+      "text | <b>5th-level Evocation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>120 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S, M</code> (a prism)</td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 1 minute</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Radiant energy pulses in a <code>20-foot radius</code>. Creatures in the area make a <b>Constitution saving throw</b>.",
+      "text | On fail, take <code>4d10 radiant damage</code> and are <b>blinded</b>. Half on success.",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12",
+    "title_size": "15"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "mirror",
+    "title": "Mislead",
+    "card_level": "5",
+    "contents": [
+      "text | <b>5th-level Illusion</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Self</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 1 minute</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Turn invisible and create an <b>illusory double</b>.",
+      "text | You can move it and perceive through it using your action.",
+      "text | The illusion lasts until the spell ends or you dismiss it.",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "chain",
+    "title": "Planar Binding",
+    "card_level": "5",
+    "contents": [
+      "text | <b>5th-level Abjuration</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 hour</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>60 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S, M</code> (jewel worth at least 1,000 gp)</td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>24 hours</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Bind a <b>celestial, elemental, fey, or fiend</b> within range that is already <b>charmed or restrained</b>.",
+      "text | It must make a <b>Charisma saving throw</b>. On a fail, it is bound to serve you for the duration.",
+      "text | <b>At Higher Levels.</b> Duration increases: 10 days (6th), 30 days (7th), 180 days (8th), 1 year (9th).",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "leaf",
+    "title": "Plant Growth",
+    "card_level": "5",
+    "contents": [
+      "text | <b>3rd-level Transmutation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action or 8 hours</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>150 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Instantaneous</code></td></tr>",
+      "text | </tbody></table>",
+      "text | In 1 action: Plants in a <code>100-foot radius</code> become thick and overgrown. Movement through them costs <b>4 feet per 1</b>.",
+      "text | In 8 hours: Enrich land. Crops yield double for 1 year.",
+      "footer | Warlock | 3rd-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "eye",
+    "title": "Scrying",
+    "card_level": "5",
+    "contents": [
+      "text | <b>5th-level Divination</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>10 minutes</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Self</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S, M</code> (focus worth at least 1,000 gp)</td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 10 minutes</code></td></tr>",
+      "text | </tbody></table>",
+      "text | You create an <b>invisible sensor</b> to spy on a creature you know.",
+      "text | The target makes a <b>Wisdom saving throw</b>. Bonuses or penalties apply based on how well you know them and physical connection.",
+      "text | On fail, you can see and hear through the sensor within <code>10 feet</code> of the target.",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "10"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "brain",
+    "title": "Synaptic Static",
+    "card_level": "5",
+    "contents": [
+      "text | <b>5th-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>120 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Instantaneous</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Creatures in a <code>20-foot radius sphere</code> make an <b>Intelligence saving throw</b>.",
+      "text | On a fail, take <code>8d6 psychic damage</code> and subtract <code>1d6</code> from attacks, checks, and saves for 1 minute.",
+      "text | Save again at end of each turn to end the effect.",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "teleport",
+    "title": "Teleportation Circle",
+    "card_level": "5",
+    "contents": [
+      "text | <b>5th-level Conjuration</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 minute</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>10 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, M</code> (rare chalks and inks worth 50 gp)</td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>1 round</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Draw a <b>sigil</b> linking to a <b>permanent teleportation circle</b> you know.",
+      "text | Opens a portal for <code>1 round</code>. Creatures within the circle teleport to the destination.",
+      "footer | Warlock | 5th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  }
+]

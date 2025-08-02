@@ -1,0 +1,128 @@
+[
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "brain",
+    "title": "Befuddlement",
+    "card_level": "8",
+    "contents": [
+      "text | <b>8th-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>60 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 1 minute</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Target up to <code>3 creatures</code> in range. Each must succeed on a <b>Wisdom saving throw</b> or be <b>confused</b>.",
+      "text | On a fail, affected creatures can't take reactions and must roll a <code>d10</code> each turn to determine their behavior.",
+      "footer | Warlock | 8th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "door",
+    "title": "Demiplane",
+    "card_level": "8",
+    "contents": [
+      "text | <b>8th-level Conjuration</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>60 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>1 hour</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Open a <b>shadowy door</b> to a pocket dimension.",
+      "text | The room is <code>30 feet</code> on each side. You can summon the same room with later castings.",
+      "text | The door vanishes after 1 minute or when closed.",
+      "footer | Warlock | 8th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "crown",
+    "title": "Dominate Monster",
+    "card_level": "8",
+    "contents": [
+      "text | <b>8th-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>60 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 1 hour</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Target one creature of any type. It must succeed on a <b>Wisdom saving throw</b> or be <b>charmed</b>.",
+      "text | You control its actions telepathically, though it can make another save when harmed.",
+      "footer | Warlock | 8th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "mouth",
+    "title": "Glibness",
+    "card_level": "8",
+    "contents": [
+      "text | <b>8th-level Transmutation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Self</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>1 hour</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Words twist to your will. All <b>Charisma (Deception)</b> checks are treated as <code>minimum 15</code>.",
+      "text | You can’t be magically compelled to tell the truth.",
+      "footer | Warlock | 8th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "lightning",
+    "title": "Power Word Stun",
+    "card_level": "8",
+    "contents": [
+      "text | <b>8th-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>60 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Instantaneous</code></td></tr>",
+      "text | </tbody></table>",
+      "text | You speak a magical word that can overwhelm the mind of one creature you can see within range.",
+      "text | If the target has <code>150 hit points or fewer</code>, it is <b>stunned</b>. Otherwise, this spell has no effect.",
+      "footer | Warlock | 8th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  }
+]

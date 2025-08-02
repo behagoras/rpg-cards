@@ -1,0 +1,171 @@
+[
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Artificer Cantrips List",
+    "icon_front": "",
+    "contents": [
+      "text | As an artificer, you know <b>two <code>cantrips</code></b> of your choice from the following list. ",
+      "text | You <b>can swap one</b> of them whenever you finish a Long Rest. At <code>lvl10</code> and <code>lvl14</code>, you learn <b>one additional <code>cantrip</code></b>.",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><td>Acid Splash</td><td>Dancing Lights</td><td>Elementalism</td></tr>",
+      "text | <tr><td>Fire Bolt</td><td>Guidance</td><td>Light</td></tr>",
+      "text | <tr><td>Mage Hand</td><td>Mending</td><td>Message</td></tr>",
+      "text | <tr><td>Poison Spray</td><td>Prestidigitation</td><td>Ray of Frost</td></tr>",
+      "text | <tr><td>Resistance</td><td>Shocking Grasp</td><td>Spare the Dying</td></tr>",
+      "text | <tr><td>Thorn Whip</td><td>Thunderclap</td><td>True Strike</td></tr>",
+      "text | </tbody></table>",
+      
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "progress",
+      "artificer",
+      "artificer-level-1"
+    ],
+    "title_size": "13",
+    "card_font_size": "10",
+    "card_level": 1
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Artificer 1st Level Spells ",
+    "icon_front": "",
+    "card_font_size": "12",
+    "contents": [
+      "text | At <code>1st level</code>, you gain access to the following <b>1st-level Artificer spells</b>. ",
+      "text|<b>Cure Wounds</b> and <b>Grease</b> are recommended picks for early utility and support.",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><td>Alarm</td><td>Cure Wounds</td><td>Detect Magic</td></tr>",
+      "text | <tr><td>Disguise Self</td><td>Expeditious Retreat</td><td>Faerie Fire</td></tr>",
+      "text | <tr><td>False Life</td><td>Feather Fall</td><td>Grease</td></tr>",
+      "text | <tr><td>Identify</td><td>Jump</td><td>Longstrider</td></tr>",
+      "text | <tr><td>Purify Food & Drink</td><td>Sanctuary</td><td></td></tr>",
+      "text | </tbody></table>",
+      
+      "footer | Artificer Level 1 | Feature"
+    ],
+    "tags": [
+      "spell-list",
+      "artificer",
+      "level1",
+      "artificer-level-1"
+    ],
+    "title_size": "12",
+    "card_level": 1
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Artificer 2nd Lvl Spells",
+    "icon_front": "",
+    "card_font_size": "9",
+    "contents": [
+      "text | At <code>5th level</code> (when you gain 2nd-level spell slots), you may prepare from the following <b>2nd-level Artificer spells</b>. <b>Heat Metal</b>, <b>Enhance Ability</b> and <b>Web</b> are excellent utility picks.",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><td>Aid</td><td>Alter Self</td><td>Arcane Lock</td></tr>",
+      "text | <tr><td>Arcane Vigor</td><td>Blur</td><td>Continual Flame</td></tr>",
+      "text | <tr><td>Darkvision</td><td>Dragon’s Breath</td><td>Enhance Ability</td></tr>",
+      "text | <tr><td>Enlarge/Reduce</td><td>Heat Metal</td><td>Homunculus Servant</td></tr>",
+      "text | <tr><td>Invisibility</td><td>Lesser Restoration</td><td>Levitate</td></tr>",
+      "text | <tr><td>Magic Mouth</td><td>Magic Weapon</td><td>Protection from Poison</td></tr>",
+      "text | <tr><td>Rope Trick</td><td>See Invisibility</td><td>Spider Climb</td></tr>",
+      "text | <tr><td>Web</td><td></td><td></td></tr>",
+      "text | </tbody></table>",
+      
+      "",
+      "footer | Artificer Level 5 | Feature"
+    ],
+    "tags": [
+      "spell-list",
+      "artificer",
+      "level2",
+      "artificer-level-5"
+    ],
+    "title_size": "12",
+    "card_level": 5
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Artificer 3rd Lvl spells",
+    "icon_front": "",
+    "card_font_size": "12",
+    "contents": [
+      "text | At <code>9th level</code> you gain access to <b>3rd-level Artificer spells</b>. ",
+      "text | Consider spells like <b>Haste</b>, <b>Fly</b>, or <b>Revivify</b> to maximize versatility.",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><td>Blink</td><td>Create Food & Water</td><td>Dispel Magic</td></tr>",
+      "text | <tr><td>Elemental Weapon</td><td>Fly</td><td>Glyph of Warding</td></tr>",
+      "text | <tr><td>Haste</td><td>Protection from Energy</td><td>Revivify</td></tr>",
+      "text | <tr><td>Water Breathing</td><td>Water Walk</td><td></td></tr>",
+      "text | </tbody></table>",
+      
+      "",
+      "footer | Artificer Level 9 | Feature"
+    ],
+    "tags": [
+      "spell-list",
+      "artificer",
+      "level3",
+      "artificer-level-9"
+    ],
+    "title_size": "13",
+    "card_level": 9
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Artificer 4th Lvl Spells",
+    "icon_front": "",
+    "card_font_size": "12",
+    "contents": [
+      "text | At <code>13th level</code> you gain access to <b>4th-level Artificer spells</b>. ",
+      "text | Spells like <b>Fabricate</b> and <b>Stoneskin</b> greatly expand your utility and resilience.",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><td>Arcane Eye</td><td>Fabricate</td><td>Freedom of Movement</td></tr>",
+      "text | <tr><td>Leomund’s Secret Chest</td><td>Mordenkainen’s Faithful Hound</td><td>Mordenkainen’s Private Sanctum</td></tr>",
+      "text | <tr><td>Otiluke’s Resilient Sphere</td><td>Stone Shape</td><td>Stoneskin</td></tr>",
+      "text | <tr><td>Summon Construct</td><td></td><td></td></tr>",
+      "text | </tbody></table>",
+      
+      "",
+      "footer | Artificer Level 13 | Feature"
+    ],
+    "tags": [
+      "spell-list",
+      "artificer",
+      "level4",
+      "artificer-level-13"
+    ],
+    "title_size": "11",
+    "card_level": 13
+  },
+  {
+    "count": 1,
+    "color": "slategray",
+    "title": "Artificer 5th Lvl Spells",
+    "icon_front": "",
+    "card_font_size": "12",
+    "contents": [
+      "text | At <code>17th level</code> you unlock <b>5th-level Artificer spells</b>. ",
+      "text | These include powerful options like <b>Wall of Stone</b> or <b>Bigby’s Hand</b>.",
+      "",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><td>Animate Objects</td><td>Bigby’s Hand</td><td>Circle of Power</td></tr>",
+      "text | <tr><td>Creation</td><td>Greater Restoration</td><td>Wall of Stone</td></tr>",
+      "text | </tbody></table>",
+      
+      "footer | Artificer Level 17 | Feature"
+    ],
+    "tags": [
+      "spell-list",
+      "artificer",
+      "level5",
+      "artificer-level-17"
+    ],
+    "title_size": "11",
+    "card_level": 17
+  }
+]

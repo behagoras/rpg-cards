@@ -1,0 +1,155 @@
+[
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "crown",
+    "title": "Dominate Beast",
+    "card_level": "7",
+    "contents": [
+      "text | <b>4th-level Enchantment</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>60 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 1 minute</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Target a <b>beast</b> you can see. It must succeed on a <b>Wisdom saving throw</b> or be <b>charmed</b> for the duration.",
+      "text | You have telepathic control and can command it using your action.",
+      "footer | Warlock | 4th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "ghost",
+    "title": "Etherealness",
+    "card_level": "7",
+    "contents": [
+      "text | <b>7th-level Transmutation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Self</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Up to 8 hours</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Step into the <b>Ethereal Plane</b> for the duration. ",
+      "text | You move through the Ethereal as if it were the Material Plane, ignoring physical objects.",
+      "text | When the spell ends, you return to the Material Plane.",
+      "footer | Warlock | 7th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "skull",
+    "title": "Finger of Death",
+    "card_level": "7",
+    "contents": [
+      "text | <b>7th-level Necromancy</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>60 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Instantaneous</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Target one creature, which must make a <b>Constitution saving throw</b>.",
+      "text | On a fail, it takes <code>7d8 + 30 necrotic damage</code>, or half on success.",
+      "text | A humanoid killed by this spell rises as a <b>zombie</b> under your control.",
+      "footer | Warlock | 7th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "cage",
+    "title": "Forcecage",
+    "card_level": "7",
+    "contents": [
+      "text | <b>7th-level Evocation</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>100 feet</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S, M</code> (ruby dust worth 1,500 gp)</td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>1 hour</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Create an invisible, immobile <b>cube-shaped prison</b> of force.",
+      "text | A creature can't leave by nonmagical means and can’t teleport out without a <b>Charisma save</b>.",
+      "text | No damage; used for containment or control.",
+      "footer | Warlock | 7th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "11"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "eye",
+    "title": "Greater Invisibility",
+    "card_level": "7",
+    "contents": [
+      "text | <b>4th-level Illusion</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Touch</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S</code></td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Concentration, up to 1 minute</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Touch a creature to turn it <b>invisible</b> for the duration.",
+      "text | Unlike <code>invisibility</code>, attacking or casting spells does not end the effect.",
+      "footer | Warlock | 4th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  },
+  {
+    "count": 1,
+    "color": "BlueViolet",
+    "icon_front": "teleport",
+    "title": "Plane Shift",
+    "card_level": "7",
+    "contents": [
+      "text | <b>7th-level Conjuration</b>",
+      "text | <table class='stats'><tbody>",
+      "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
+      "text | <tr><th><b>Range</b></th><td><code>Touch</code></td></tr>",
+      "text | <tr><th><b>Components</b></th><td><code>V, S, M</code> (forked metal rod worth 250 gp)</td></tr>",
+      "text | <tr><th><b>Duration</b></th><td><code>Instantaneous</code></td></tr>",
+      "text | </tbody></table>",
+      "text | Transport yourself and up to <code>8 willing creatures</code> to another plane.",
+      "text | Alternatively, banish one creature on a failed <b>Charisma saving throw</b>.",
+      "footer | Warlock | 7th-level Spell",
+      ""
+    ],
+    "tags": [
+      "warlock",
+      "spell"
+    ],
+    "card_font_size": "12"
+  }
+]
