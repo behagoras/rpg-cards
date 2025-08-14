@@ -47,7 +47,7 @@
     "count": 1,
     "color": "seagreen",
     "title": "Alchemical Savant",
-    "icon_front": "potion-ball ",
+    "icon_front": "potion-ball",
     "contents": [
       "text | When casting a spell using your <<code>Alchemist's Supplies</code> as your <b>Spellcasting Focus</b>, you may add your <b>Intelligence modifier</b> (minimum +1) to <i>one</i> of the healing or damage spell's rolls:",
       "section | Rules",
@@ -71,7 +71,7 @@
     "count": 1,
     "color": "seagreen",
     "title": "Restorative Reagents (Alchemist)",
-    "icon_front": "round-potion ",
+    "icon_front": "round-potion",
     "contents": [
       "text | Your reagents offer powerful restorative effects. ",
       "section | Fortify",
@@ -100,7 +100,7 @@
     "count": 1,
     "color": "seagreen",
     "title": "Chemical Mastery (Alchemist)",
-    "icon_front": "potion-ball ",
+    "icon_front": "potion-ball",
     "contents": [
       "section | Alchemical Eruption",
       "text | Once on each of your turns, when you cast a spell that deals <b>Acid</b>, <b>Fire</b>, <b>Necrotic</b>, or <b>Poison</b> damage, you can also deal <b>2d8 Force damage</b> to one of the targets hit.",

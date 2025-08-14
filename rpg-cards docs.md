@@ -75,6 +75,9 @@ The same card inside the UI shows each field (Count, Tags, Color, Contents, etc.
 | `contents`                           | Ordered list of card elements (see below).           |
 | `tags`                               | Free-text labels for filtering / scripting.          |
 
+
+> Icon names: Refer to `@original_icon_names.json` (see `resources/original_icon_names.json`) for the full list of icon identifiers available in this build.
+
 ---
 
 ## 🔧 Card Elements Cheat-Sheet
