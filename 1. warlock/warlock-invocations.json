@@ -1,7 +1,7 @@
 [
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Agonizing Blast",
     "card_level": "2",
@@ -21,7 +21,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "shield",
     "title": "Armor of Shadows",
     "contents": [
@@ -38,7 +38,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "chevrons-up",
     "title": "Ascendant Step",
     "card_level": "5",
@@ -57,7 +57,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "eye",
     "title": "Devil's Sight",
     "card_level": "2",
@@ -76,7 +76,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "sword",
     "title": "Devouring Blade",
     "card_level": "12",
@@ -95,7 +95,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "brain",
     "title": "Eldritch Mind",
     "contents": [
@@ -112,7 +112,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "zap",
     "title": "Eldritch Smite",
     "card_level": "5",
@@ -132,7 +132,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "target",
     "title": "Eldritch Spear",
     "card_level": "2",
@@ -152,7 +152,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "heart",
     "title": "Fiendish Vigor",
     "card_level": "2",
@@ -171,7 +171,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Repelling Blast",
     "contents": [
@@ -188,7 +188,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Thirsting Blade",
     "contents": [
@@ -205,7 +205,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Visions of Distant Realms",
     "contents": [
@@ -221,7 +221,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Whispers of the Grave",
     "contents": [
@@ -237,7 +237,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Witch Sight",
     "contents": [
@@ -253,7 +253,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Gaze of Two Minds",
     "contents": [
@@ -271,7 +271,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Gift of the Depths",
     "contents": [
@@ -288,7 +288,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Gift of the Protectors",
     "contents": [
@@ -307,7 +307,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Investment of the Chain Master",
     "contents": [
@@ -327,7 +327,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Lessons of the First Ones",
     "contents": [
@@ -345,7 +345,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Lifedrinker",
     "contents": [
@@ -363,7 +363,7 @@
   },
   {
     "count": 1,
-    "color": "purple",
+    "color": "lightpurple",
     "icon_front": "magic-swirl",
     "title": "Otherworldly Leap",
     "contents": [
@@ -376,5 +376,25 @@
       "invocation",
       "warlock"
     ]
+  },
+  {
+    "count": 1,
+    "color": "lightpurple",
+    "icon_front": "book-pile",
+    "card_level": "3",
+    "title": "Book of Ancient Secrets",
+    "card_font_size": "10",
+    "contents": [
+      "subtitle | Eldritch Invocation | Requires Tome (level 3+)",
+      "rule",
+      "text | <b>Prerequisite:</b> Pact of the Tome.",
+      "bullet | Available starting at <b>level 3</b> (once you gain your Pact Boon).",
+      "bullet | Your Book of Shadows can hold <b>ritual spells</b>.",
+      "bullet | Choose <b>two 1st-level rituals</b> from any class; they appear in the book. With the book in hand, you can cast them as rituals.",
+      "bullet | You can cast any <b>warlock spell you know</b> with the ritual tag as a ritual.",
+      "bullet | Add more rituals you find (spell level ≤ <b>half your warlock level</b>, rounded up): copying takes <b>2 hours/level</b> and costs <b>50 gp/level</b> in inks.",
+      "footer | Warlock | Invocation | Tome prerequisite"
+    ],
+    "tags": ["invocation", "warlock", "tome"]
   }
 ]

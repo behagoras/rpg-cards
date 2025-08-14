@@ -54,8 +54,7 @@
       "warlock"
     ],
     "card_font_size": "11",
-    "title_size": "12",
-    "card_level": "0"
+    "title_size": "12"
   },
   {
     "count": 1,
@@ -76,8 +75,7 @@
       "feature",
       "warlock",
       "multiclass"
-    ],
-    "card_level": "0"
+    ]
   },
   {
     "count": 1,
@@ -143,7 +141,6 @@
       "core"
     ],
     "card_font_size": "12",
-    "card_level": "0",
     "title_size": "10"
   },
   {
@@ -287,10 +284,11 @@
   {
     "count": 1,
     "color": "purple",
-    "icon_front": "magic-swirl",
+    "icon_front": "sword",
+    "card_level": "3",
     "title": "Pact of the Blade",
     "contents": [
-      "subtitle | Pact Boon | Level 3",
+      "subtitle | Pact Boon",
       "rule",
       "text | As a Bonus Action, conjure or bond with a <b>Simple or Martial Melee</b> weapon. Use it as a <b>Spellcasting Focus</b>.",
       "text | You can use your <b>Charisma</b> modifier for attack and damage rolls, and choose to deal <b>Necrotic</b>, <b>Psychic</b>, <b>Radiant</b>, or normal damage.",
@@ -305,10 +303,11 @@
   {
     "count": 1,
     "color": "purple",
-    "icon_front": "magic-swirl",
+    "icon_front": "cross",
+    "card_level": "3",
     "title": "Pact of the Chain",
     "contents": [
-      "subtitle | Pact Boon | Level 3",
+      "subtitle | Pact Boon",
       "rule",
       "text | Learn <b>Find Familiar</b>. Cast it without a spell slot as a Magic Action.",
       "text | Familiar can be a special form: <code>Imp</code>, <code>Pseudodragon</code>, <code>Quasit</code>, <code>Skeleton</code>, <code>Slaad Tadpole</code>, <code>Sphinx of Wonder</code>, <code>Sprite</code>, <code>Venomous Snake</code>.",
@@ -323,19 +322,18 @@
   {
     "count": 1,
     "color": "purple",
-    "icon_front": "magic-swirl",
+    "icon_front": "book-pile",
     "title": "Pact of the Tome",
+    "card_font_size": "10",
     "contents": [
-      "subtitle | Pact Boon | Level 3",
+      "subtitle | Pact Boon",
       "rule",
-      "text | Conjure a <b>Book of Shadows</b> at end of a Short/Long Rest. It vanishes if you conjure another or die.",
-      "text | Choose 3 cantrips + 2 level 1 ritual spells from any class. While on your person, you have them prepared as Warlock spells.",
-      "text | The book is a <b>Spellcasting Focus</b>.",
+      "text | You receive a <b>Book of Shadows</b> at the end of a short or long rest.",
+      "bullet | Choose <b>3 cantrips</b> from any class’s list; while the book is on your person, you can cast them at will. They count as warlock cantrips and don’t count against cantrips known.",
+      "bullet | The book is a <b>spellcasting focus</b> for your warlock spells.",
+      "bullet | If lost, you can perform a <b>1-hour ceremony</b> during a short/long rest to replace it; the previous book is destroyed.",
       "footer | Warlock | Pact Boon | Tome"
     ],
-    "tags": [
-      "pact",
-      "warlock"
-    ]
+    "tags": ["pact", "warlock"]
   }
 ]

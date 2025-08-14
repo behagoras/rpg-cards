@@ -1,12 +1,12 @@
 [
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "magic-swirl",
     "title": "Bane",
     "card_level": "1",
     "contents": [
-      "text | <b>1st-level Enchantment</b>",
+      "text | <b>3rd Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>30 feet</code></td></tr>",
@@ -27,12 +27,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "skull-crack",
     "title": "False Life",
     "card_level": "1",
     "contents": [
-      "text | <b>1st-level Necromancy</b>",
+      "text | <b>3rd Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>Self</code></td></tr>",
@@ -52,12 +52,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "eye-target",
     "title": "Blindness/Deafness",
     "card_level": "2",
     "contents": [
-      "text | <b>2nd-level Necromancy</b>",
+      "text | <b>3rd Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>30 feet</code></td></tr>",
@@ -79,12 +79,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "brain",
     "title": "Phantasmal Force",
     "card_level": "2",
     "contents": [
-      "text | <b>2nd-level Illusion</b>",
+      "text | <b>3rd Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>60 feet</code></td></tr>",
@@ -106,12 +106,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "ghost",
     "title": "Phantom Steed",
     "card_level": "3",
     "contents": [
-      "text | <b>3rd-level Illusion (ritual)</b>",
+      "text | <b>5th Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 minute</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>30 feet</code></td></tr>",
@@ -131,12 +131,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "skull-crack",
     "title": "Speak with Dead",
     "card_level": "3",
     "contents": [
-      "text | <b>3rd-level Necromancy</b>",
+      "text | <b>5th Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>10 feet</code></td></tr>",
@@ -158,12 +158,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "shield",
     "title": "Death Ward",
     "card_level": "4",
     "contents": [
-      "text | <b>4th-level Abjuration</b>",
+      "text | <b>7th Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>Touch</code></td></tr>",
@@ -184,12 +184,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "eye-target",
     "title": "Greater Invisibility",
     "card_level": "4",
     "contents": [
-      "text | <b>4th-level Illusion</b>",
+      "text | <b>7th Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>Touch</code></td></tr>",
@@ -209,12 +209,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "shield",
     "title": "Antilife Shell",
     "card_level": "5",
     "contents": [
-      "text | <b>5th-level Abjuration</b>",
+      "text | <b>9th Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>Self (10-foot radius)</code></td></tr>",
@@ -234,12 +234,12 @@
   },
   {
     "count": 1,
-    "color": "black",
+    "color": "#555",
     "icon_front": "biohazard",
     "title": "Cloudkill",
     "card_level": "5",
     "contents": [
-      "text | <b>5th-level Conjuration</b>",
+      "text | <b>9th Level Undead Warlock</b>",
       "text | <table class='stats'><tbody>",
       "text | <tr><th><b>Casting Time</b></th><td><code>1 action</code></td></tr>",
       "text | <tr><th><b>Range</b></th><td><code>120 feet</code></td></tr>",

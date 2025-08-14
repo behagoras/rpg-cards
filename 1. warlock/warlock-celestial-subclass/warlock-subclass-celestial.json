@@ -1,7 +1,7 @@
 [
   {
     "count": 1,
-    "color": "Navy",
+    "color": "#121254",
     "icon_front": "angel-wings",
     "title": "Celestial Patron",
     "contents": [
@@ -18,7 +18,7 @@
   },
   {
     "count": 1,
-    "color": "Navy",
+    "color": "#121254",
     "icon_front": "scroll-unfurled",
     "title": "Celestial Spells",
     "card_level": "3",
@@ -40,7 +40,7 @@
   },
   {
     "count": 1,
-    "color": "Navy",
+    "color": "#121254",
     "icon_front": "heart-plus",
     "title": "Healing Light",
     "card_level": "3",
@@ -60,7 +60,7 @@
   },
   {
     "count": 1,
-    "color": "Navy",
+    "color": "#121254",
     "icon_front": "radiations",
     "title": "Radiant Soul",
     "card_level": "6",
