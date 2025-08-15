@@ -1,0 +1,8 @@
+[
+  "node_modules",
+  "output.md",
+  ".gitignore",
+  "ignore.json",
+  ".DS_Store",
+  "*.pdf"
+]

@@ -1,0 +1,205 @@
+[
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Tiefling (Glasya)",
+    "icon": "ifrit",
+    "card_font_size": "10",
+    "tags": ["race","tiefling","glasya","blue"],
+    "contents": [
+      "section | Racial Traits",
+      "text | <table class='stats'>",
+      "text |   <tr><td><b>Size</b></td><td>Medium</td><td><b>Speed</b></td><td>30 ft</td></tr>",
+      "text |   <tr><td><b>Darkvision</b></td><td>60 ft</td><td><b>Resistance</b></td><td>Fire</td></tr>",
+      "text |   <tr><td><b>Languages</b></td><td>Common, Infernal</td><td><b>ASI</b></td><td>2014: CHA +2, DEX +1 (or use origin ASI)</td></tr>",
+      "text | </table>",
+      "rule",
+      "section | Legacy of Glasya (Innate Magic)",
+      "bullet | <b>Cantrip</b>: <code>Minor Illusion</code> (at will; CHA).",
+      "bullet | <b>3rd level</b>: <code>Disguise Self</code> 1/long rest.",
+      "bullet | <b>5th level</b>: <code>Invisibility</code> (self) 1/long rest.",
+      "bullet | You can also cast these with spell slots you have.",
+      "footer | Race | Tiefling | Glasya"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Background — Sailor (Pirate)",
+    "icon": "anchor",
+    "card_font_size": "10",
+    "tags": ["background","sailor","pirate","tools"],
+    "contents": [
+      "section | Proficiencies",
+      "text | <table class='stats'>",
+      "text |   <tr><td><b>Skills</b></td><td>Athletics, Perception</td><td><b>Tools</b></td><td>Navigator’s Tools; Vehicles (Water)</td></tr>",
+      "text | </table>",
+      "section | Feature",
+      "bullet | <b>Ship’s Passage</b>: Secure free passage for yourself and allies on a friendly ship (you help crew; timing at captain’s whim).",
+      "bullet | <b>Variant — Bad Reputation</b>: Folk fear you; you can often get away with minor crimes.",
+      "section | Equipment",
+      "bullet | Belaying pin (club), 50 ft silk rope, lucky charm, set of common clothes, pouch with 10 gp.",
+      "footer | Background | Sailor | Pirate"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Feat — Fey Touched (CHA)",
+    "icon": "fairy-wand",
+    "card_font_size": "10",
+    "tags": ["feat","fey-touched","misty step","silvery barbs"],
+    "contents": [
+      "section | Benefits",
+      "bullet | Increase <b>CHA</b> by 1 (to a max of 20).",
+      "bullet | Learn <b>Misty Step</b> and one 1st-level <b>Enchantment/Divination</b> spell.",
+      "bullet | You can cast both spells <b>once without a slot</b> per long rest; you can also cast them with your slots.",
+      "bullet | Your spellcasting ability for these is <b>CHA</b>.",
+      "rule",
+      "section | Blue’s Picks",
+      "bullet | <b>Misty Step</b> (always known via feat) — <b>1/day</b> free.",
+      "bullet | <b>Silvery Barbs</b> (via feat) — <b>1/day</b> free.",
+      "footer | Feat | Fey Touched | CHA"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Blue — Warlock L4 Snapshot",
+    "icon": "warlock-hood",
+    "card_font_size": "10",
+    "tags": ["build","warlock","level4","snapshot"],
+    "contents": [
+      "section | Pact Magic @ L4",
+      "text | <table class='stats'>",
+      "text |   <tr><td><b>Slots</b></td><td>2</td><td><b>Slot Level</b></td><td>2nd</td></tr>",
+      "text |   <tr><td><b>Spells Known</b></td><td>5</td><td><b>Cantrips Known</b></td><td>3 (warlock) + 3 (Tome)</td></tr>",
+      "text | </table>",
+      "bullet | <b>Save DC</b>: 8 + PROF + CHA mod • <b>Attack</b>: PROF + CHA mod.",
+      "section | Boon & Invocations",
+      "bullet | <b>Pact Boon</b>: Pact of the Tome (L3) — Book of Shadows; 3 extra cantrips.",
+      "bullet | <b>Invocations</b> (2): Book of Ancient Secrets + (your choice).",
+      "section | Always Available",
+      "bullet | <b>Fey Touched</b>: Misty Step (1/day) • Silvery Barbs (1/day).",
+      "bullet | <b>Glasya</b>: Minor Illusion (at will); Disguise Self 1/day; Invisibility (self) 1/day at L5.",
+      "section | Rituals in Book",
+      "bullet | <b>Find Familiar</b>, <b>Detect Magic</b> (ritual) — via Book of Ancient Secrets.",
+      "footer | Build | Warlock | Level 4"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Navigator’s Tools — Quick Ref",
+    "icon": "compass",
+    "card_font_size": "10",
+    "tags": ["tools","navigator","sailing"],
+    "contents": [
+      "section | Using the Tools",
+      "bullet | <b>Set a course</b> (WIS or INT + tool): plot safe route; avoid reefs, shoals, storms.",
+      "bullet | <b>Dead reckoning</b> (INT + tool): estimate position/time to destination.",
+      "bullet | <b>Chart reading</b> (INT + tool): decode currents, tides, landmarks.",
+      "bullet | <b>Weather signs</b> (WIS + tool): predict winds/storm shifts.",
+      "section | Synergy",
+      "bullet | Combine with <b>Vehicles (Water)</b> for advantage when steering through hazards.",
+      "footer | Tools | Navigator’s Tools"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Vehicles (Water) — Quick Ref",
+    "icon": "sailboat",
+    "card_font_size": "10",
+    "tags": ["tools","vehicles","water"],
+    "contents": [
+      "section | Typical Checks",
+      "bullet | <b>Helm a vessel</b> (DEX + vehicles): tight turns, docking, evasive maneuvers.",
+      "bullet | <b>Weather the storm</b> (STR or WIS + vehicles): hold course in rough seas.",
+      "bullet | <b>Trim sails / speed</b> (DEX + vehicles): optimize speed vs wind.",
+      "section | Actions",
+      "bullet | <b>Heave to</b>: reduce speed; easier checks.",
+      "bullet | <b>Full sail</b>: gain speed; harder checks; risk damage in high winds.",
+      "footer | Tools | Vehicles (Water)"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Find Familiar — Quick Tactics",
+    "icon": "cat",
+    "card_font_size": "10",
+    "tags": ["extras","familiar","tactics"],
+    "contents": [
+      "section | Universal",
+      "bullet | Familiars <b>can’t attack</b>; they can <b>Help</b> to grant advantage, <b>Scout</b>, or <b>Deliver touch</b> spells you cast within 100 ft.",
+      "bullet | Use <b>Dodge</b> if exposed; keep to cover; communicate via telepathy (within 100 ft).",
+      "section | Picks",
+      "bullet | <b>Owl</b>: Flyby Help without provoking.",
+      "bullet | <b>Bat</b>: <b>Blindsight 60 ft</b> — darkness & invisibility scouting.",
+      "bullet | <b>Cat/Weasel</b>: high Stealth; tight spaces.",
+      "bullet | <b>Raven</b>: Mimicry; urban infiltration.",
+      "bullet | <b>Spider/Lizard</b>: climbing recon; vents and walls.",
+      "bullet | <b>Octopus</b>: aquatic ops; Ink Cloud getaway.",
+      "footer | Extras | Find Familiar | Tactics"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Blue — Roleplay & Quirks",
+    "icon": "theater",
+    "card_font_size": "10",
+    "tags": ["extras","roleplay","blue"],
+    "contents": [
+      "section | Hooks",
+      "bullet | Charming but sly; enjoys harmless cons and dramatic disguises (thanks, <b>Glasya</b>).",
+      "bullet | Treats the Book of Shadows like a living pet; whispers to it before casting.",
+      "bullet | Superstitious sailor: never whistles on deck; pockets a lucky coin.",
+      "section | Bonds & Tells",
+      "bullet | Protective of the crew; despises slavers and cruel captains.",
+      "bullet | Quirk: taps a three-beat rhythm before risky magic.",
+      "footer | Extras | Roleplay | Blue"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Combat Script — Boss (L4)",
+    "icon": "crossed-swords",
+    "card_font_size": "10",
+    "tags": ["extras","combat","script","level4"],
+    "contents": [
+      "section | Opener",
+      "bullet | If threatened: <b>Misty Step</b> (feat, 1/day) to high ground/cover.",
+      "bullet | Command familiar to <b>Help</b> vs the biggest threat (Owl Flyby).",
+      "section | Loop (each round)",
+      "bullet | <b>Action</b>: Target wounded with <b>Toll the Dead</b>; otherwise <b>Chill Touch</b>.",
+      "bullet | <b>Bonus</b>: Reposition; draw with <b>Disguise Self</b> shenanigans out of combat.",
+      "bullet | <b>Movement</b>: Keep 30–60 ft gap; break line of sight after casting.",
+      "section | Reaction & Triggers",
+      "bullet | <b>Silvery Barbs</b> (feat, 1/day) on enemy crits/clutch saves; grant ally advantage.",
+      "bullet | Maintain <b>Concentration</b> if any; take cover when hit.",
+      "footer | Extras | Combat | Script L4"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#8E44AD",
+    "title": "Concentration — Quick Guide",
+    "icon": "hourglass",
+    "card_font_size": "10",
+    "tags": ["rules","reference","concentration"],
+    "contents": [
+      "section | Starting & Ending",
+      "bullet | You can concentrate on <b>one</b> spell at a time; casting another concentration spell ends the first.",
+      "bullet | Concentration ends if you are <b>incapacitated</b> or if the spell says so.",
+      "section | Checks",
+      "bullet | When you take damage: CON save <b>DC 10</b> or <b>half</b> the damage (whichever is higher).",
+      "bullet | One check per source of damage; multiple hits = multiple checks.",
+      "section | Tips",
+      "bullet | Take cover; use <b>Dodge</b> when focused; summon familiar to <b>Help</b> attackers away from you.",
+      "footer | Rules | Concentration | Reference"
+    ]
+  }
+]
