@@ -15,7 +15,8 @@
   "scripts": {
     "start": "npx http-server ./generator",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node resources/tools/update-icons.js && node resources/tools/update-fonts.js"
+    "build": "node resources/tools/update-icons.js && node resources/tools/update-fonts.js",
+    "pdf:5e": "node scripts/generate-pdfs.js ./Cards/5e ./Cards/5e/output"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   },
   "homepage": "https://github.com/crobi/rpg-cards#readme",
   "dependencies": {
+    "puppeteer": "^22.15.0",
     "rimraf": "^3.0.2"
   }
 }

@@ -1,8 +1,8 @@
 [
   {
     "count": 1,
-    "color": "#8E44AD",
-    "title": "Tiefling (Glasya)",
+    "color": "#c28dd9",
+    "title": "Tiefling (Glasya) — Traits",
     "icon": "ifrit",
     "card_font_size": "10",
     "tags": ["race","tiefling","glasya","blue"],
@@ -13,7 +13,17 @@
       "text |   <tr><td><b>Darkvision</b></td><td>60 ft</td><td><b>Resistance</b></td><td>Fire</td></tr>",
       "text |   <tr><td><b>Languages</b></td><td>Common, Infernal</td><td><b>ASI</b></td><td>2014: CHA +2, DEX +1 (or use origin ASI)</td></tr>",
       "text | </table>",
-      "rule",
+      "footer | Race | Tiefling | Glasya"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#c28dd9",
+    "title": "Tiefling (Glasya) — Legacy",
+    "icon": "ifrit",
+    "card_font_size": "10",
+    "tags": ["race","tiefling","glasya","blue"],
+    "contents": [
       "section | Legacy of Glasya (Innate Magic)",
       "bullet | <b>Cantrip</b>: <code>Minor Illusion</code> (at will; CHA).",
       "bullet | <b>3rd level</b>: <code>Disguise Self</code> 1/long rest.",
@@ -24,7 +34,7 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
+    "color": "#c28dd9",
     "title": "Background — Sailor (Pirate)",
     "icon": "anchor",
     "card_font_size": "10",
@@ -44,7 +54,7 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
+    "color": "#c28dd9",
     "title": "Feat — Fey Touched (CHA)",
     "icon": "fairy-wand",
     "card_font_size": "10",
@@ -64,9 +74,9 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
-    "title": "Blue — Warlock L4 Snapshot",
-    "icon": "warlock-hood",
+    "color": "#c28dd9",
+    "title": "Blue — Pact Magic (L4)",
+    "icon": "magic-swirl",
     "card_font_size": "10",
     "tags": ["build","warlock","level4","snapshot"],
     "contents": [
@@ -76,12 +86,45 @@
       "text |   <tr><td><b>Spells Known</b></td><td>5</td><td><b>Cantrips Known</b></td><td>3 (warlock) + 3 (Tome)</td></tr>",
       "text | </table>",
       "bullet | <b>Save DC</b>: 8 + PROF + CHA mod • <b>Attack</b>: PROF + CHA mod.",
+      "footer | Build | Warlock | Level 4"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#c28dd9",
+    "title": "Blue — Boon & Invocations",
+    "icon": "magic-swirl",
+    "card_font_size": "10",
+    "tags": ["build","warlock","level4","snapshot"],
+    "contents": [
       "section | Boon & Invocations",
       "bullet | <b>Pact Boon</b>: Pact of the Tome (L3) — Book of Shadows; 3 extra cantrips.",
       "bullet | <b>Invocations</b> (2): Book of Ancient Secrets + (your choice).",
+      "footer | Build | Warlock | Level 4"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#c28dd9",
+    "title": "Blue — Always Available",
+    "icon": "magic-swirl",
+    "card_font_size": "10",
+    "tags": ["build","warlock","level4","snapshot"],
+    "contents": [
       "section | Always Available",
       "bullet | <b>Fey Touched</b>: Misty Step (1/day) • Silvery Barbs (1/day).",
       "bullet | <b>Glasya</b>: Minor Illusion (at will); Disguise Self 1/day; Invisibility (self) 1/day at L5.",
+      "footer | Build | Warlock | Level 4"
+    ]
+  },
+  {
+    "count": 1,
+    "color": "#c28dd9",
+    "title": "Blue — Rituals in Book",
+    "icon": "magic-swirl",
+    "card_font_size": "10",
+    "tags": ["build","warlock","level4","snapshot"],
+    "contents": [
       "section | Rituals in Book",
       "bullet | <b>Find Familiar</b>, <b>Detect Magic</b> (ritual) — via Book of Ancient Secrets.",
       "footer | Build | Warlock | Level 4"
@@ -89,7 +132,7 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
+    "color": "#c28dd9",
     "title": "Navigator’s Tools — Quick Ref",
     "icon": "compass",
     "card_font_size": "10",
@@ -107,7 +150,7 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
+    "color": "#c28dd9",
     "title": "Vehicles (Water) — Quick Ref",
     "icon": "sailboat",
     "card_font_size": "10",
@@ -125,7 +168,7 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
+    "color": "#c28dd9",
     "title": "Find Familiar — Quick Tactics",
     "icon": "cat",
     "card_font_size": "10",
@@ -146,7 +189,7 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
+    "color": "#c28dd9",
     "title": "Blue — Roleplay & Quirks",
     "icon": "theater",
     "card_font_size": "10",
@@ -164,7 +207,7 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
+    "color": "#c28dd9",
     "title": "Combat Script — Boss (L4)",
     "icon": "crossed-swords",
     "card_font_size": "10",
@@ -185,7 +228,7 @@
   },
   {
     "count": 1,
-    "color": "#8E44AD",
+    "color": "#c28dd9",
     "title": "Concentration — Quick Guide",
     "icon": "hourglass",
     "card_font_size": "10",

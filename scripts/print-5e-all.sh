@@ -1,0 +1,83 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Batch-generate front-only PDFs for all JSON decks under Cards/5e
+# Usage: scripts/print-5e-all.sh [inputDir] [outputDir] [port]
+# Defaults: inputDir=./Cards/5e, outputDir=./Cards/5e/output, port=8091
+
+ROOT_DIR=$(cd "$(dirname "$0")/.." && pwd)
+INPUT_DIR="${1:-$ROOT_DIR/Cards/5e}"
+OUTPUT_DIR="${2:-$INPUT_DIR/output}"
+PORT="${3:-8091}"
+
+mkdir -p "$OUTPUT_DIR"
+
+# Find Chrome (macOS default first)
+CHROME_BIN="${CHROME_BIN:-}"
+if [ -z "${CHROME_BIN}" ]; then
+  CANDS=(
+    "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    "google-chrome" "chromium" "chromium-browser"
+  )
+  for c in "${CANDS[@]}"; do
+    if command -v "$c" >/dev/null 2>&1; then CHROME_BIN=$(command -v "$c"); break; fi
+    if [ -x "$c" ]; then CHROME_BIN="$c"; break; fi
+  done
+fi
+if [ -z "$CHROME_BIN" ]; then
+  echo "Error: Chrome/Chromium not found. Set CHROME_BIN env var or install Chrome." >&2
+  exit 1
+fi
+
+# Start static server from repo root
+PID_FILE="$OUTPUT_DIR/.http_pid"
+start_server() {
+  (cd "$ROOT_DIR" && python3 -m http.server "$PORT" >/dev/null 2>&1 & echo $! > "$PID_FILE")
+  sleep 1
+}
+stop_server() {
+  if [ -f "$PID_FILE" ]; then
+    kill "$(cat "$PID_FILE")" 2>/dev/null || true
+    rm -f "$PID_FILE"
+  fi
+}
+trap stop_server EXIT
+start_server
+
+# Walk JSON files (exclude output dir) - POSIX-friendly
+FILES=$(find "$INPUT_DIR" -type f -name '*.json' ! -path "$OUTPUT_DIR/*" | sort)
+if [ -z "$FILES" ]; then
+  echo "No JSON files found in $INPUT_DIR" >&2
+  exit 1
+fi
+
+printf "%s\n" "$FILES" | while IFS= read -r json; do
+  [ -z "$json" ] && continue
+  rel_in="${json#$INPUT_DIR/}"
+  rel_root="/${json#$ROOT_DIR/}"
+
+  # URL-encode path but keep slashes
+  deck_qs=$(python3 - "$rel_root" <<'PY'
+import sys, urllib.parse
+p = sys.argv[1]
+print(urllib.parse.quote(p, safe='/'))
+PY
+)
+
+  out_pdf="$OUTPUT_DIR/${rel_in%.json}.front-only.pdf"
+  mkdir -p "$(dirname "$out_pdf")"
+
+  url="http://localhost:$PORT/generator/cli.html?deck=$deck_qs&pw=210mm&ph=297mm&arr=front_only"
+  echo "[GEN] $rel_in -> ${out_pdf#$ROOT_DIR/}"
+  "$CHROME_BIN" \
+    --headless --disable-gpu --no-sandbox \
+    --virtual-time-budget=6000 \
+    --print-to-pdf-no-header \
+    --print-to-pdf="$out_pdf" \
+    "$url" >/dev/null 2>&1 || echo "[FAIL] $rel_in" >&2
+done
+
+echo "Done. Opening: $OUTPUT_DIR"
+open "$OUTPUT_DIR" 2>/dev/null || true
+
+

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RPG Cards CLI Loader</title>
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lora:700' rel='stylesheet' type='text/css'>
+  <link href="fonts/game-icons.css" rel="stylesheet" />
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/output.css">
+  <link rel="stylesheet" type="text/css" href="css/cards.css">
+  <link rel="stylesheet" type="text/css" href="css/card-size.css">
+  <link rel="stylesheet" type="text/css" href="css/icons.css">
+  <link rel="stylesheet" type="text/css" href="css/custom-icons.css">
+  <link href="css/style.css" rel="stylesheet" />
+  <style>
+    body { background: white; }
+    #output-container { min-height: 100vh; }
+    .error { color: #a00; font-family: system-ui, sans-serif; padding: 1rem; }
+    #debug-log { font: 12px/1.4 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background:#111; color:#9f9; padding:8px; white-space:pre-wrap; border-bottom: 1px solid #333; }
+  </style>
+</head>
+<body class="page-background">
+  <div id="debug-log" style="display:none"></div>
+  <div id="output-container"></div>
+  <!-- Hidden container used by cards.js to measure back icon size -->
+  <div id="preview-container" style="position:absolute;visibility:hidden;pointer-events:none;"></div>
+
+  <!-- JS deps -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="js/common.js"></script>
+  <script src="js/cards.js"></script>
+  <script>
+    (function() {
+      const showDebug = new URL(location.href).searchParams.get('debug') === '1';
+      const debugEl = document.getElementById('debug-log');
+      if (showDebug && debugEl) debugEl.style.display = 'block';
+
+      function log(...args){
+        try {
+          console.log('[cli]', ...args);
+          if (showDebug && debugEl) {
+            debugEl.textContent += args.map(String).join(' ') + '\n';
+          }
+        } catch(_){}
+      }
+
+      window.addEventListener('error', (e)=>{ log('window.onerror:', e.message || e.error || e); });
+      window.addEventListener('unhandledrejection', (e)=>{ log('unhandledrejection:', e.reason || e); });
+      function qs(name){
+        const u = new URL(window.location.href);
+        return u.searchParams.get(name);
+      }
+
+      function insert(html){
+        const el = document.getElementById('output-container');
+        el.innerHTML = html;
+      }
+
+      async function main(){
+        const deck = qs('deck');
+        log('location.href =', location.href);
+        log('deck param =', deck);
+        if (!deck) {
+          document.body.innerHTML = '<div class="error">Missing ?deck=path/to/deck.json</div>';
+          return;
+        }
+        const opts = (window.card_default_options && window.card_default_options()) || {};
+        // Allow overriding via query params (optional)
+        const u = new URL(window.location.href);
+        if (u.searchParams.get('rows')) opts.page_rows = parseInt(u.searchParams.get('rows'), 10) || opts.page_rows;
+        if (u.searchParams.get('cols')) opts.page_columns = parseInt(u.searchParams.get('cols'), 10) || opts.page_columns;
+        if (u.searchParams.get('arr')) opts.card_arrangement = u.searchParams.get('arr');
+        if (u.searchParams.get('pw')) opts.page_width = u.searchParams.get('pw');
+        if (u.searchParams.get('ph')) opts.page_height = u.searchParams.get('ph');
+
+        let data;
+        try {
+          const resolved = new URL(deck, location.origin);
+          log('resolved deck URL =', resolved.href);
+          // Preflight HEAD
+          const head = await fetch(resolved.href, { method: 'HEAD' });
+          log('HEAD status =', head.status);
+          if (!head.ok) {
+            document.body.innerHTML = '<div class="error">HEAD failed ' + head.status + ' for ' + resolved.href + '</div>';
+            return;
+          }
+          const res = await fetch(resolved.href, { cache: 'no-store' });
+          log('GET status =', res.status);
+          if (!res.ok) {
+            document.body.innerHTML = '<div class="error">GET failed ' + res.status + ' for ' + resolved.href + '</div>';
+            return;
+          }
+          data = await res.json();
+        } catch (e) {
+          log('fetch error =', e && (e.stack || e.message || e));
+          document.body.innerHTML = '<div class="error">Failed to load deck: ' + (deck || '(none)') + '</div>';
+          return;
+        }
+
+        const cards = Array.isArray(data) ? data : (Array.isArray(data.cards) ? data.cards : data.deck);
+        log('parsed cards length =', Array.isArray(cards) ? cards.length : '(not array)');
+        if (!Array.isArray(cards)) {
+          document.body.innerHTML = '<div class="error">Unsupported deck format: expected array or {cards:[...]}</div>';
+          return;
+        }
+
+        // Ensure full page CSS size for print
+        opts.page_width = opts.page_width || '210mm';
+        opts.page_height = opts.page_height || '297mm';
+        const html = window.card_pages_generate_html(cards, opts);
+        log('HTML length =', html && html.length);
+        insert(html);
+        // When running headless, wait for fonts and icons to paint
+        await new Promise(r => setTimeout(r, 400));
+      }
+
+      if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', main);
+      else main();
+    })();
+  </script>
+</body>
+</html>
+
+
