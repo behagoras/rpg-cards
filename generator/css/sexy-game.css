@@ -1,0 +1,346 @@
+/* Custom CSS for Sexy Time Card Game */
+/* Matches EXACTLY the reference design: WhatsApp Image 2026-01-16 at 23.37.38.jpeg */
+
+/* ============================================
+   REFERENCE DESIGN STRUCTURE:
+   - Card has THICK colored border (left/right)
+   - Header has WHITE background with dark text
+   - Small emoji icon at top-left of header
+   - Temperature name centered, bold, dark
+   - Action type below temp name, dark
+   - Purple points circle top-right
+   - Content area: white background
+   - Bottom section (~40%): COLORED with white circle + icon
+   ============================================ */
+
+/* ============================================
+   TEMPERATURE COLOR DEFINITIONS
+   ============================================ */
+:root {
+    --sexy-2x-fire: #B22234;
+    --sexy-fire: #FF8C00;
+    --sexy-warm: #FFD700;
+    --sexy-cold: #00BCD4;
+    --sexy-purple: #8B5A9B;
+}
+
+/* ============================================
+   GRID LAYOUT (Preview + Export)
+   ============================================ */
+.page.sexy-game-page {
+    background-color: #bababa;
+    box-shadow: none;
+}
+
+.page-zoom.sexy-game-grid {
+    gap: var(--sexy-grid-gap, 50px);
+    padding: var(--sexy-grid-padding, 70px);
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.page-zoom.sexy-game-grid .card[data-temp] {
+    margin: 0 !important;
+}
+
+.page.sexy-game-page.page-preview {
+    box-shadow: none;
+}
+
+/* ============================================
+   CARD STRUCTURE - Colored borders
+   ============================================ */
+.card[data-temp] {
+    border-width: 3mm !important;
+    border-style: solid !important;
+    overflow: hidden;
+}
+
+.card[data-temp="2x-fire"] {
+    border-color: #B22234 !important;
+}
+.card[data-temp="fire"] {
+    border-color: #FF8C00 !important;
+}
+.card[data-temp="warm"] {
+    border-color: #FFD700 !important;
+}
+.card[data-temp="cold"] {
+    border-color: #00BCD4 !important;
+}
+
+/* ============================================
+   CARD HEADER - WHITE background, dark text
+   ============================================ */
+.card[data-temp] .card-header {
+    background-color: white !important;
+    position: relative;
+    padding: 8px 12px 6px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 50px;
+}
+
+/* ============================================
+   TITLE (Temperature name) - Dark text on white
+   ============================================ */
+.card[data-temp] .card-title {
+    background-color: transparent !important;
+    color: #222 !important;
+    font-family: 'Noto Sans', Arial, sans-serif !important;
+    font-variant: normal !important;
+    font-weight: 800 !important;
+    font-size: 13pt !important;
+    height: auto !important;
+    padding: 0 !important;
+    line-height: 1.2 !important;
+    text-align: center;
+    text-shadow: none !important;
+}
+
+/* ============================================
+   ACTION ICON - Small emoji at top-left
+   ============================================ */
+.sexy-header-icon {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sexy-header-icon img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+/* ============================================
+   POINTS CIRCLE - Purple, top-right
+   ============================================ */
+.card-level {
+    background-color: #8B5A9B !important;
+}
+
+.card[data-temp] .card-level-container {
+    position: absolute !important;
+    top: 8px !important;
+    right: 10px !important;
+}
+
+/* ============================================
+   ACTION TYPE IN HEADER - Below temperature name
+   ============================================ */
+.sexy-action-type-in-header {
+    color: #333;
+    font-weight: 600;
+    font-size: 10pt;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+}
+
+/* ============================================
+   CONTENT CONTAINER - White background
+   ============================================ */
+.card[data-temp] .card-content-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    background-color: white;
+    flex: 1;
+    position: relative;
+}
+
+.card[data-temp] .card-content-container > * {
+    position: relative;
+    z-index: 1;
+}
+
+.sexy-temp-watermark {
+    position: absolute;
+    right: 14px;
+    top: 44%;
+    width: 70px;
+    height: 70px;
+    opacity: 0.15;
+    object-fit: contain;
+    pointer-events: none;
+    z-index: 0;
+}
+
+/* Hide default ruler */
+.card[data-temp] .card-content-container .card-ruler {
+    display: none;
+}
+
+/* ============================================
+   SEXY ACTION HEADER - Hidden (now in card header)
+   ============================================ */
+.sexy-action-header {
+    display: none;
+}
+
+/* ============================================
+   SEXY DESCRIPTION - Main body text
+   Format: "KISS Anywhere" (KISS bold, Anywhere underlined)
+           "below the waist" (regular, second line)
+   ============================================ */
+.sexy-description {
+    text-align: center;
+    padding: 12px 15px 8px 15px;
+    font-size: 11pt;
+    line-height: 1.4;
+    color: #333;
+    background-color: white;
+}
+
+.sexy-description .action-word {
+    font-weight: bold;
+    font-size: 11pt;
+}
+
+.sexy-description .desc-word {
+    text-decoration: underline;
+    font-size: 11pt;
+}
+
+.sexy-description .desc-secondary {
+    display: block;
+    font-size: 10pt;
+    font-weight: normal;
+    text-decoration: none;
+    margin-top: 4px;
+    color: #444;
+}
+
+/* ============================================
+   SEXY BODY ZONE - Gingerbread + zone text
+   ============================================ */
+.sexy-body-zone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 12px;
+    font-size: 10pt;
+    color: #333;
+    background-color: white;
+    gap: 6px;
+}
+
+.sexy-body-zone img {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.sexy-body-zone span {
+    font-weight: 500;
+}
+
+/* ============================================
+   SEXY ICON SECTION - Bottom colored area (~40%)
+   with temperature icon in white circle
+   ============================================ */
+.sexy-icon-section {
+    margin: 0 -3mm -3mm -3mm;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110px;
+    flex-grow: 1;
+}
+
+.sexy-icon-section .icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+}
+
+.sexy-icon-section img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+}
+
+.sexy-card-back {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.sexy-card-back-circle {
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.2);
+}
+
+.sexy-card-back-circle img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain;
+}
+
+/* ============================================
+   FILL ELEMENTS
+   ============================================ */
+.card-fill {
+    flex-grow: 1;
+}
+
+/* ============================================
+   PRINT OPTIMIZATIONS
+   ============================================ */
+@media print {
+    .card[data-temp] {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .card[data-temp] .card-header {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .sexy-icon-section {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .card-level {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    .sexy-description,
+    .sexy-body-zone {
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+    }
+
+    body.page-background .page.page-letter .card[data-temp] {
+        width: 50px !important;
+        height: 50px !important;
+    }
+}

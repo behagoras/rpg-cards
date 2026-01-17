@@ -92,6 +92,52 @@ function card_data_split_params(value) {
     return value.split("|").map(function (str) { return str.trim(); });
 }
 
+function card_is_sexy_game(card_data) {
+    return Array.isArray(card_data.tags) && card_data.tags.some(function (tag) {
+        return String(tag).toLowerCase() === "sexy-game";
+    });
+}
+
+function card_get_sexy_temp_tag(card_data) {
+    if (!Array.isArray(card_data.tags)) return "";
+    var tags = card_data.tags.map(function (tag) {
+        return String(tag).toLowerCase();
+    });
+    if (tags.indexOf("2x-fire") > -1) return "2x-fire";
+    if (tags.indexOf("fire") > -1) return "fire";
+    if (tags.indexOf("warm") > -1) return "warm";
+    if (tags.indexOf("cold") > -1) return "cold";
+    return "";
+}
+
+function card_extract_sexy_header(contents) {
+    if (!Array.isArray(contents)) return null;
+    for (var i = 0; i < contents.length; i++) {
+        var parts = card_data_split_params(contents[i]);
+        if (parts[0] === "sexy_header") {
+            return {
+                iconUrl: parts[1] || "",
+                actionType: parts[2] || ""
+            };
+        }
+    }
+    return null;
+}
+
+function card_extract_sexy_icon(contents) {
+    if (!Array.isArray(contents)) return null;
+    for (var i = 0; i < contents.length; i++) {
+        var parts = card_data_split_params(contents[i]);
+        if (parts[0] === "sexy_icon") {
+            return {
+                iconUrl: parts[1] || "",
+                color: parts[2] || ""
+            };
+        }
+    }
+    return null;
+}
+
 function card_element_class(card_data, options) {
     var card_font_size_class = card_size_class(card_data, options);
     return 'card-element card-description-line' + card_font_size_class;
@@ -158,6 +204,62 @@ function card_element_inline_icon(params, card_data, options) {
     var align = params[2] || "center";
     var color = card_data_color_front(card_data, options);
     return '<div class="card-element card-inline-icon align-' + align + ' icon-' + icon + '" style ="height:' + size + 'px;min-height:' + size + 'px;width: ' + size + 'px;background-color: ' + color + '"></div>';
+}
+
+function card_element_sexy_header(params, card_data, options) {
+    return '';
+}
+
+function card_element_sexy_desc(params, card_data, options) {
+    var action = params[0] || "";
+    var description = (params[1] || "").trim();
+    var words = description ? description.split(/\s+/) : [];
+    if (words.length && action && words[0].toLowerCase() === action.toLowerCase()) {
+        words.shift();
+    }
+    var primary = "";
+    var secondary = "";
+    if (words.length) {
+        primary = words.shift();
+        secondary = words.join(" ");
+    } else {
+        primary = description;
+    }
+    var result = '<div class="sexy-description">';
+    result += '<span class="action-word">' + action + '</span>';
+    if (primary) {
+        result += ' <span class="desc-word">' + primary + '</span>';
+    }
+    if (secondary) {
+        result += '<span class="desc-secondary">' + secondary + '</span>';
+    }
+    result += '</div>';
+    return result;
+}
+
+function card_element_sexy_zone(params, card_data, options) {
+    var zone = params[0] || "";
+    var iconUrl = params[1] || "";
+    var result = '<div class="sexy-body-zone">';
+    if (iconUrl) {
+        result += '<img src="' + iconUrl + '" alt="">';
+    }
+    result += '<span>' + zone + '</span>';
+    result += '</div>';
+    return result;
+}
+
+function card_element_sexy_icon(params, card_data, options) {
+    var iconUrl = params[0] || "";
+    var color = params[1] || card_data_color_front(card_data, options);
+    var result = '<div class="sexy-icon-section" style="background-color: ' + color + ';">';
+    result += '<div class="icon-circle">';
+    if (iconUrl) {
+        result += '<img src="' + iconUrl + '" alt="">';
+    }
+    result += '</div>';
+    result += '</div>';
+    return result;
 }
 
 function card_element_footer(params, card_data, options) {
@@ -496,7 +598,11 @@ var card_element_generators = {
     disabled: card_element_empty,
     picture: card_element_picture,
     icon: card_element_inline_icon,
-    footer: card_element_footer
+    footer: card_element_footer,
+    sexy_header: card_element_sexy_header,
+    sexy_desc: card_element_sexy_desc,
+    sexy_zone: card_element_sexy_zone,
+    sexy_icon: card_element_sexy_icon
 };
 
 // ============================================================================
@@ -505,6 +611,11 @@ var card_element_generators = {
 
 function card_generate_contents(contents, card_data, options) {
     var result = "";
+    var sexyIcon = card_extract_sexy_icon(contents);
+    var watermarkHtml = "";
+    if (sexyIcon && sexyIcon.iconUrl) {
+        watermarkHtml = '<img class="sexy-temp-watermark" src="' + sexyIcon.iconUrl + '" alt="">';
+    }
 
     var html = contents.map(function (value) {
         var parts = card_data_split_params(value);
@@ -598,6 +709,7 @@ function card_generate_contents(contents, card_data, options) {
     });
 
     result += '<div class="card-content-container">';
+    result += watermarkHtml;
     result += html;
     result += '</div>';
     return result;
@@ -636,12 +748,24 @@ function card_generate_front(data, options) {
     var style_color = card_generate_color_style(color, options);
     var card_size_style = add_size_to_style(style_color, options.card_width, options.card_height);
     var card_style = add_margin_to_style(card_size_style, options);
+    var isSexyGame = card_is_sexy_game(data);
+    var tempTag = isSexyGame ? card_get_sexy_temp_tag(data) : "";
+    var tempAttr = tempTag ? ' data-temp="' + tempTag + '"' : "";
+    var sexyHeader = isSexyGame ? card_extract_sexy_header(data.contents) : null;
 
     var result = "";
-    result += '<div class="card ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + card_style + '>';
+    result += '<div class="card ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + card_style + tempAttr + '>';
     result += '<div class="card-header">';
+    if (sexyHeader && sexyHeader.iconUrl) {
+        result += '<div class="sexy-header-icon"><img src="' + sexyHeader.iconUrl + '" alt=""></div>';
+    }
     result += card_element_title(data, options);
-    result += card_element_icon(data, options);
+    if (sexyHeader && sexyHeader.actionType) {
+        result += '<div class="sexy-action-type-in-header">' + sexyHeader.actionType + '</div>';
+    }
+    if (!isSexyGame) {
+        result += card_element_icon(data, options);
+    }
     result += card_element_level(data, options);
     result += '</div>';
     result += card_generate_contents(data.contents, data, options);
@@ -653,6 +777,10 @@ function card_generate_front(data, options) {
 function card_generate_back(data, options) {
     var color = card_data_color_back(data, options);
     var style_color = card_generate_color_style(color, options);
+    var isSexyGame = card_is_sexy_game(data);
+    var tempTag = isSexyGame ? card_get_sexy_temp_tag(data) : "";
+    var tempAttr = tempTag ? ' data-temp="' + tempTag + '"' : "";
+    var sexyIcon = isSexyGame ? card_extract_sexy_icon(data.contents) : null;
 
     var width = options.card_width;
     var height = options.card_height;
@@ -663,6 +791,19 @@ function card_generate_back(data, options) {
     var card_height = "-webkit-calc(" + height + " + " + back_bleed_height + ")";
 
     var card_style = add_size_to_style(style_color, card_width, card_height);
+
+    if (isSexyGame && sexyIcon && sexyIcon.iconUrl) {
+        var sexyBackColor = sexyIcon.color || color;
+        var result = "";
+        result += '<div class="card' + ' ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + card_style + tempAttr + '>';
+        result += '  <div class="sexy-card-back" style="background-color: ' + sexyBackColor + ';">';
+        result += '    <div class="sexy-card-back-circle">';
+        result += '      <img src="' + sexyIcon.iconUrl + '" alt="">';
+        result += '    </div>';
+        result += '  </div>';
+        result += '</div>';
+        return result;
+    }
 
     var $tmpCardContainer = $('<div style="position:absolute;visibility:hidden;pointer-events:none;"></div>');
     var $tmpCard = $('<div class="card" ' + card_style + '><div class="card-back"><div class="card-back-inner"><div class="card-back-icon"></div></div></div></div>');
@@ -687,7 +828,7 @@ function card_generate_back(data, options) {
     var icon = card_data_icon_back(data, options);
 
     var result = "";
-    result += '<div class="card' + ' ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + card_style + '>';
+    result += '<div class="card' + ' ' + (options.rounded_corners ? 'rounded-corners' : '') + '" ' + card_style + tempAttr + '>';
     result += '  <div class="card-back" ' + background_style + '>';
     if (!url) {
         result += '    <div class="card-back-inner">';
@@ -777,6 +918,15 @@ function card_pages_interleave_cards_alt(front_cards, back_cards, options) {
     return result;
 }
 
+function is_letter_page(options) {
+    var width = parseNumberAndMeasureUnit(options.page_width || "");
+    var height = parseNumberAndMeasureUnit(options.page_height || "");
+    if (!width || !height) return false;
+    if (width.mu !== "in" || height.mu !== "in") return false;
+    var sizes = [width.number, height.number].sort(function (a, b) { return a - b; });
+    return Math.abs(sizes[0] - 8.5) < 0.01 && Math.abs(sizes[1] - 11) < 0.01;
+}
+
 function card_pages_wrap(pages, options) {
     // force portrait layout then rotate if landscape
     var orientation = getOrientation(options.page_width, options.page_height);
@@ -809,8 +959,21 @@ function card_pages_wrap(pages, options) {
         zoomStyle += '"';
         zoomStyle = add_size_to_style(zoomStyle, parsedPageWidth.number + parsedPageWidth.mu, parsedPageHeight.number + parsedPageHeight.mu);
 
-        result += '<page class="page page-preview ' + orientation + '" ' + style + '>\n';
-        result += '<div class="page-zoom page-zoom-preview" ' + zoomStyle + '>\n';
+        var pageClass = 'page page-preview ' + orientation;
+        if (options.has_sexy_game) {
+            pageClass += ' sexy-game-page';
+        }
+        if (is_letter_page(options)) {
+            pageClass += ' page-letter';
+        }
+
+        var zoomClass = 'page-zoom page-zoom-preview';
+        if (options.has_sexy_game) {
+            zoomClass += ' sexy-game-grid';
+        }
+
+        result += '<page class="' + pageClass + '" ' + style + '>\n';
+        result += '<div class="' + zoomClass + '" ' + zoomStyle + '>\n';
         result += pages[i].join("\n");
         result += '</div>\n';
         result += '</page>\n';
@@ -831,12 +994,25 @@ function card_pages_generate_style(options) {
     result += "    size:" + pw + " " + ph + ";\n";
     result += "    -webkit-print-color-adjust: exact;\n";
     result += "}\n";
+    var cardWidth = options.card_width || "50mm";
+    var cardHeight = options.card_height || "50mm";
+    result += ":root {\n";
+    result += "    --sexy-card-width: " + cardWidth + ";\n";
+    result += "    --sexy-card-height: " + cardHeight + ";\n";
+    result += "    --sexy-grid-gap: calc(" + cardWidth + " * 0.2);\n";
+    result += "    --sexy-grid-padding: calc(" + cardWidth + " * 0.3);\n";
+    result += "}\n";
     result += "</style>\n";
     return result;
 }
 
 function card_pages_generate_html(card_data, options) {
     options = options || card_default_options();
+    options.has_sexy_game = card_data.some(function (card) {
+        return Array.isArray(card.tags) && card.tags.some(function (tag) {
+            return String(tag).toLowerCase() === "sexy-game";
+        });
+    });
     var rows = options.page_rows || 3;
     var cols = options.page_columns || 3;
 
