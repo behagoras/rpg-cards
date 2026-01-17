@@ -44,6 +44,18 @@ stop_server() {
 trap stop_server EXIT
 start_server
 
+# Prepare an isolated venv for PDF post-processing (PEP 668 safe)
+VENV_DIR="$OUTPUT_DIR/.venv_pdf"
+if [ ! -d "$VENV_DIR" ]; then
+  python3 -m venv "$VENV_DIR" >/dev/null 2>&1 || true
+fi
+PYBIN=""
+if [ -x "$VENV_DIR/bin/python" ]; then
+  PYBIN="$VENV_DIR/bin/python"
+  "$PYBIN" -m pip -q install --upgrade pip >/dev/null 2>&1 || true
+  "$PYBIN" -m pip -q install pypdf >/dev/null 2>&1 || true
+fi
+
 # Walk JSON files (exclude output dir) - POSIX-friendly
 FILES=$(find "$INPUT_DIR" -type f -name '*.json' ! -path "$OUTPUT_DIR/*" | sort)
 if [ -z "$FILES" ]; then
@@ -67,7 +79,8 @@ PY
   out_pdf="$OUTPUT_DIR/${rel_in%.json}.front-only.pdf"
   mkdir -p "$(dirname "$out_pdf")"
 
-  url="http://localhost:$PORT/generator/cli.html?deck=$deck_qs&pw=210mm&ph=297mm&arr=front_only"
+  # Use US Letter page size
+  url="http://localhost:$PORT/generator/cli.html?deck=$deck_qs&pw=8.5in&ph=11in&arr=front_only&fill=0&wait=1500"
   echo "[GEN] $rel_in -> ${out_pdf#$ROOT_DIR/}"
   "$CHROME_BIN" \
     --headless --disable-gpu --no-sandbox \
@@ -75,6 +88,50 @@ PY
     --print-to-pdf-no-header \
     --print-to-pdf="$out_pdf" \
     "$url" >/dev/null 2>&1 || echo "[FAIL] $rel_in" >&2
+
+  # Strip the last page (some environments add an extra trailing sheet)
+  if [ -n "$PYBIN" ]; then
+  "$PYBIN" - "$out_pdf" <<'PY'
+import sys, os
+pdf_path = sys.argv[1]
+tmp = pdf_path + ".tmp"
+
+def try_libs():
+    for name in ("pypdf", "PyPDF2"):
+        try:
+            if name == "pypdf":
+                from pypdf import PdfReader, PdfWriter
+            else:
+                from PyPDF2 import PdfReader, PdfWriter
+            return PdfReader, PdfWriter
+        except Exception:
+            pass
+    return None, None
+
+PdfReader, PdfWriter = try_libs()
+if PdfReader is None:
+    try:
+        import subprocess, sys as _s
+        subprocess.check_call([_s.executable, "-m", "pip", "install", "--user", "--quiet", "pypdf"])
+        from pypdf import PdfReader, PdfWriter
+    except Exception:
+        sys.exit(0)
+
+try:
+    r = PdfReader(pdf_path)
+except Exception:
+    sys.exit(0)
+n = len(r.pages)
+if n <= 1:
+    sys.exit(0)
+w = PdfWriter()
+for i in range(n - 1):
+    w.add_page(r.pages[i])
+with open(tmp, "wb") as f:
+    w.write(f)
+os.replace(tmp, pdf_path)
+PY
+  fi
 done
 
 echo "Done. Opening: $OUTPUT_DIR"

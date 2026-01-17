@@ -75,6 +75,8 @@
         if (u.searchParams.get('arr')) opts.card_arrangement = u.searchParams.get('arr');
         if (u.searchParams.get('pw')) opts.page_width = u.searchParams.get('pw');
         if (u.searchParams.get('ph')) opts.page_height = u.searchParams.get('ph');
+        if (u.searchParams.get('fill') === '0') opts.fill_last_page = false;
+        // No special centering overrides
 
         let data;
         try {
@@ -113,8 +115,12 @@
         const html = window.card_pages_generate_html(cards, opts);
         log('HTML length =', html && html.length);
         insert(html);
-        // When running headless, wait for fonts and icons to paint
-        await new Promise(r => setTimeout(r, 400));
+
+        // Robust headless wait: fonts + two RAFs + configurable ms
+        try { await document.fonts.ready; } catch(_) {}
+        await new Promise(r => requestAnimationFrame(() => requestAnimationFrame(r)));
+        const waitMs = parseInt(u.searchParams.get('wait') || '1200', 10);
+        if (waitMs > 0) await new Promise(r => setTimeout(r, waitMs));
       }
 
       if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', main);

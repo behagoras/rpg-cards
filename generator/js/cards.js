@@ -24,6 +24,7 @@ function card_default_options() {
         back_bleed: "2mm,2mm",
         back_bleed_width: "2mm",
         back_bleed_height: "2mm",
+        fill_last_page: true,
     };
 }
 
@@ -861,15 +862,22 @@ function card_pages_generate_html(card_data, options) {
         // Interleave front and back pages so that we can print double-sided
         pages = card_pages_merge(front_pages, back_pages);
     } else if (options.card_arrangement === "front_only") {
-        var cards = card_pages_add_padding(front_cards, options);
+        var cards = front_cards;
+        if (options.fill_last_page !== false) {
+            cards = card_pages_add_padding(cards, options);
+        }
         pages = card_pages_split(cards, rows, cols);
     } else if (options.card_arrangement === "side_by_side") {
         var cards = card_pages_interleave_cards(front_cards, back_cards, options);
-        cards = card_pages_add_padding(cards, options);
+        if (options.fill_last_page !== false) {
+            cards = card_pages_add_padding(cards, options);
+        }
         pages = card_pages_split(cards, rows, cols);
     } else if (options.card_arrangement === "side_by_side_alt") {
         var cards = card_pages_interleave_cards_alt(front_cards, back_cards, options);
-        cards = card_pages_add_padding(cards, options);
+        if (options.fill_last_page !== false) {
+            cards = card_pages_add_padding(cards, options);
+        }
         pages = card_pages_split(cards, rows, cols);
     }
 
